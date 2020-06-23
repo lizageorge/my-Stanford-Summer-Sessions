@@ -1,2 +1,4 @@
 # General Tasks
--[ ] create zoom acc with stanford address
+- [ ] consolidate stanford passwords
+- [ ] try and readjust camera
+- [ ] change discord display name lmao

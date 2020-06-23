@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Programming Abstractions - CS 106B/Notes/Intro to C++.md",
+            "file": "Programming Abstractions - CS 106B/Notes/The basics of CS106B.md",
             "mode": "source"
           }
         }
@@ -80,13 +80,14 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "lastOpenFiles": [
     "Programming Abstractions - CS 106B/Notes/Untitled.md",
-    "Clientside Internet Technology - CS 193C/Tasks.md",
-    "Math Foundations of Computing - CS 103/Tasks.md",
     "Programming Abstractions - CS 106B/Tasks.md",
-    "Programming Abstractions - CS 106B/Information, Resources.md"
+    "Programming Abstractions - CS 106B/Notes/Intro to C++.md",
+    "Math Foundations of Computing - CS 103/Notes/First Class - Intro to Sets.md",
+    "Math Foundations of Computing - CS 103/Tasks.md"
   ]
 }

@@ -9,7 +9,7 @@ int main()
 {
     int x;
     std::cin >> x;
-    std::cout << "your number + 1 is" << add(x, 1);
+    std::cout << "your number + 1 is " << add(x, 1);
 }
 
 int add(int x, int y)

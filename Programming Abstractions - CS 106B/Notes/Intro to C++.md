@@ -1,4 +1,5 @@
 # Intro to C++
+### June 21, 2020 - my own notes
 
 Resources:
 - https://www.youtube.com/watch?v=K8VzVDldDbo
