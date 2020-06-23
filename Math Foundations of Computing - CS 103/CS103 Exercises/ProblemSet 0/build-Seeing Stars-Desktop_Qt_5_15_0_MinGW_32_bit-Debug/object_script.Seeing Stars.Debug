@@ -1,0 +1,14 @@
+debug/spl.o
+debug/AligningReactor.o
+debug/AnimatedStarReactor.o
+debug/FreeformEditorReactor.o
+debug/GeneralHTMLReactor.o
+debug/Grabbag.o
+debug/HTMLWaiterReactor.o
+debug/Main.o
+debug/RadialEditorReactor.o
+debug/Reactor.o
+debug/Star.o
+debug/StarType.o
+debug/StateMachine.o
+debug/SummaryReactor.o

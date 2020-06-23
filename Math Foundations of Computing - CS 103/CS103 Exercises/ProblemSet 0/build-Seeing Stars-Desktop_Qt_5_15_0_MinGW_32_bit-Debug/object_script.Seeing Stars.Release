@@ -1,0 +1,14 @@
+release/spl.o
+release/AligningReactor.o
+release/AnimatedStarReactor.o
+release/FreeformEditorReactor.o
+release/GeneralHTMLReactor.o
+release/Grabbag.o
+release/HTMLWaiterReactor.o
+release/Main.o
+release/RadialEditorReactor.o
+release/Reactor.o
+release/Star.o
+release/StarType.o
+release/StateMachine.o
+release/SummaryReactor.o
