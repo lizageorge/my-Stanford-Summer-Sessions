@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Clientside Internet Technology - CS 193C/Notes/7-23-20; Intro to Web Programming.md",
+            "file": "Programming Abstractions - CS 106B/Notes/7-24-20; Strings and Testing.md",
             "mode": "source"
           }
         }
@@ -84,11 +84,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Clientside Internet Technology - CS 193C/Notes/Untitled 1.md",
-    "Math Foundations of Computing - CS 103/Notes/7-22-20; Intro to Sets.md",
+    "Programming Abstractions - CS 106B/Notes/7-24-20; Strings and Testing.md",
     "Programming Abstractions - CS 106B/Notes/7-22-20; The basics of CS106B.md",
-    "Math Foundations of Computing - CS 103/Notes/Intro to Sets - June 22.md",
-    "Math Foundations of Computing - CS 103/Tasks.md"
+    "Programming Abstractions - CS 106B/Tasks.md",
+    "Programming Abstractions - CS 106B/Notes/7-24-20;.md",
+    "Programming Abstractions - CS 106B/Notes/7-23-20;  C++ Fundamentals.md"
   ],
   "promptDelete": false
 }
