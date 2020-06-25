@@ -4,4 +4,5 @@
 - [ ] change discord display name lmao
 - [ ] make extensive github ignore (make a private tag)
 	- [ ] all solutions to any problems 
+		- [ ] 106b, ASSIGN1 (everything) 
 	- [ ] starter codes/anything very complex/anything that *i* didn't write

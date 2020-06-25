@@ -6,7 +6,6 @@
 	- ![[Pasted image 15.png]] 
 
 ## Abstractions
-- [ ] find the exact definition
 - = simplifying a problem/idea by leaving out certain details to create a model easier to use and reuse.
 - [] binary is an abstraction of the electrical ativity happening in the computer board. programming languages are abstractions through which we communicate to computers - we don't have to think through binary. data structures and functions and algorithms are abstractions of simple structures - the history of computing the *the building of layers of abstractions*
 - [] a user interface in an abstraction that allows you to use a technology without having to think about/through all the back end processes.

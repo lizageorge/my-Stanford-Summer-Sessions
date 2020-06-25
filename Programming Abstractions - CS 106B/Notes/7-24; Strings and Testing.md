@@ -32,4 +32,3 @@
 - testing is very very very important, especially when the code goes to critical roles or can risk the loss of a lot of money
 - write tests that cover a wide variety of use cases, including edge cases
 - Stanford has a helpful testing tool called **SimpleTest**
-	- ![[Pasted image 40.png]]

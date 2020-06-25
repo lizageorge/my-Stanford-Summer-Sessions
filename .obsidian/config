@@ -16,13 +16,13 @@
     "type": "split",
     "children": [
       {
-        "id": "ef743d2814ee3cea",
+        "id": "8a22caed45a1eb4d",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Programming Abstractions - CS 106B/Notes/7-24-20; Strings and Testing.md",
+            "file": "General Tasks.md",
             "mode": "source"
           }
         }
@@ -84,11 +84,13 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Programming Abstractions - CS 106B/Notes/7-24-20; Strings and Testing.md",
-    "Programming Abstractions - CS 106B/Notes/7-22-20; The basics of CS106B.md",
+    "General Tasks.md",
     "Programming Abstractions - CS 106B/Tasks.md",
-    "Programming Abstractions - CS 106B/Notes/7-24-20;.md",
-    "Programming Abstractions - CS 106B/Notes/7-23-20;  C++ Fundamentals.md"
+    "Math Foundations of Computing - CS 103/Tasks.md",
+    "Math Foundations of Computing - CS 103/Notes/7-22; Intro to Sets.md",
+    "Math Foundations of Computing - CS 103/Notes/7-24; Intro to Proofs.md"
   ],
-  "promptDelete": false
+  "promptDelete": false,
+  "attachmentFolderPath": "Attachments",
+  "alwaysUpdateLinks": true
 }

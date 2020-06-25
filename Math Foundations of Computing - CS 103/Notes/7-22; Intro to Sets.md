@@ -1,6 +1,7 @@
 # Intro to Sets
 ### June 22, 2020 - first class
 
+The day's summary of the day; 
 ![[Pasted image 14.png]]
 
 - ==set== = an unordered collection of distinct objects, which may be anything, including other sets

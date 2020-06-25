@@ -33,8 +33,10 @@
 			- ` [returnType] [functionName] ( [paramters, with varType and name] );`
 		- you *must* define a function before (first in the code file) you use it, *unlike in java*
 		- the scope of a variable inside a function is that function
+		- you can have multiple functions of the same name *only if the parameters differ* (c++ doesn't look at the return type for public interface)
 		- c++ uses **pass-by-value**; when you pass in a var, it creates a *new variable* that copies the *value* of that var. so you can't change an outside variable in another function
 			- this will print "myValue is now 5, the new value is 10". The value of myValue cannot be changed by an outside function
+		
 	
 ```
 int doubleX(int x)
