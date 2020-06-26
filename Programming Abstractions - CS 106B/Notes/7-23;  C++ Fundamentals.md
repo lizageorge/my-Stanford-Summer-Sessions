@@ -24,6 +24,7 @@
 	- two ways
 		- use angle brackets for standard liraries `#include <iostream>;`
 		- use quotations for  custom libraries `#include "console.h";`
+	- using namespaces like `using namespace std;` allows you to avoid saying `std::cout` over and over again, and instead use just `cout` but still stay specific enough
 - variables and types
 	- convention is to use lowercase camelcase for variables 
 	- the types in c++ are **int, long, double, string, char, boolean**, and types are *explicitly defined and cannot change* (you can use casting functions though)
