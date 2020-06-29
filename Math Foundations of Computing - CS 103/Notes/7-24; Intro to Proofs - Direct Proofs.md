@@ -1,7 +1,7 @@
-# Intro to Proofs
-### June 22, 2020 - first class
+# Intro to Proofs - Direct Proofs
+### June 22, 2020 - lecture 2
 
-The day's summary of the day; 
+The summary of the day; 
 ![[Pasted image 37.png]]
 
 - mathematical proofs = an argument that proves why a mathermatical statement (the *theorem*) is true, following mathematical rules 

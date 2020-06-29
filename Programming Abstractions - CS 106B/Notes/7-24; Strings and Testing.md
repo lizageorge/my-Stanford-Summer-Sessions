@@ -19,6 +19,12 @@
 - You can use math operators between chars and ints. For example, adding one to a char will 'change' it to the next char in askii order
 	- ![[Pasted image 39.png]]
 - standard c++ methods for chars accepts the char input as a paramter ([] `islower('a')`), but strings as implicit parameters ([] `var.length()`) (but stanford libraries use excplicit parameters for both)
+- the standard method `substr(pos, len)` is slightly different from java's `substring(start, end)`. It outputs a string comprised of the list of characters that starts at `pos` and includes the next `len` characters. 
+	```
+	string test = "abcdef"
+	string newTest = test.substr(0, 2) + test.substring(3);
+	//newTest is now "abdef"
+	```
 
 
 ### C Strings

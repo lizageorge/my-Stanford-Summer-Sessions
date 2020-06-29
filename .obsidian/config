@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Programming Abstractions - CS 106B/Notes/7-23;  C++ Fundamentals.md",
+            "file": "General Tasks.md",
             "mode": "source"
           }
         }
@@ -84,11 +84,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Programming Abstractions - CS 106B/Notes/7-23;  C++ Fundamentals.md",
+    "General Tasks.md",
+    "Programming Abstractions - CS 106B/Tasks.md",
+    "Programming Abstractions - CS 106B/Notes/7-24; Strings and Testing.md",
     "Programming Abstractions - CS 106B/Notes/7-25; Console Programs, Data Structures (Vectors, Pass-by-Reference).md",
-    "Programming Abstractions - CS 106B/Notes/7-22; The basics of CS106B.md",
-    "Programming Abstractions - CS 106B/Notes/7-24; Strings and Testing 1.md",
-    "Programming Abstractions - CS 106B/Tasks.md"
+    "Programming Abstractions - CS 106B/Notes/Transitioning from Java to C++.md"
   ],
   "promptDelete": false,
   "attachmentFolderPath": "Attachments",
