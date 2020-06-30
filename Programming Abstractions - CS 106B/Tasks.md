@@ -8,9 +8,10 @@
 		- [x] basic
 		- [ ] extra
 	- [ ] soundex search
-		- [ ] basic
+		- [ ] basic - just reached "Developing a census search program"
 		- [ ] extra
 - [ ] check section assingments(optional to actually do it, answers in lauren's email)
+- [ ] check the difference bween pass-by-value and pass-by-reference (in c++ and java)
  
 ### Color: Purple
 
@@ -34,4 +35,3 @@
 		- [ ] do we need to know/can you explain how the inputting works?
 		- [ ] (extra) rearrange algorithm steps to combine some (like removing duplicates and zeroes), and update Q11 to match. 
 		- [ ] I used the method [toUpperCase](https://web.stanford.edu/dept/cs_edu/cppdoc/strlib.html#Function:toUpperCase) on a char (in the method encode()) but the library says it's supposed to input and output strings. can any char/string specific method be interchanged like this? 
-		- [ ] the stupid 0 < -1 error - uncomment the test for removeDuplicates when fixed (try Nick's office hours )

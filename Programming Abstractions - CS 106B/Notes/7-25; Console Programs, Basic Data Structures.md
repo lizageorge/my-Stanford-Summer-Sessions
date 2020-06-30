@@ -25,6 +25,7 @@
 	- `Vector<int> vec = {1, 2, 3, 4}` - declare and initialiize in one line
 	- `vec[3]` - access the same way as strings
 	- `vec.remove(1)` - remove the element at specified index, move everything else up one index
+	- `vec.insert(elem, index)`
 	- you can traverse with for loops or for-each loops, just like in c++ strings, and java
 	- [The full Stanford vectors documentation](https://web.stanford.edu/dept/cs_edu/cppdoc/Vector-class.html)
 	
@@ -37,6 +38,10 @@
 		- you can choose to have some parameters pass-by-value and some pass-by-reference in the same function
 	- this is most useful in helper methods for complex data structures because normally copying large data structures is inneficient. for smaller data types, it's better to pass-by-value and use returns 
 	- this is a sort of workaround to functions only being able to return one value. if you pass-by-reference multiple values, the function can edit all of them (it still isn't returning more than one value, but it can *change multiple*)
+	- so the main uses of pass-by-reference is when 
+		- you're using very large data structures with helper methods, where returning a copy is inneficient
+		- you can have a boot-strapped "multiple return values" function
+		- [ ] the third one (T^T)
 
 
 
