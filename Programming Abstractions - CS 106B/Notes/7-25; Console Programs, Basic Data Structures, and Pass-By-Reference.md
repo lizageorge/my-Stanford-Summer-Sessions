@@ -38,8 +38,9 @@
 		- you can choose to have some parameters pass-by-value and some pass-by-reference in the same function
 	- this is most useful in helper methods for complex data structures because normally copying large data structures is inneficient. for smaller data types, it's better to pass-by-value and use returns 
 	- this is a sort of workaround to functions only being able to return one value. if you pass-by-reference multiple values, the function can edit all of them (it still isn't returning more than one value, but it can *change multiple*)
+	- if you want to restrict something to not be edited when passed into a function, include `const` in the type definition in the function header (it also semantically allows readers to see that you don't intend to change that value)
 	- so the main uses of pass-by-reference is when 
-		- you're using very large data structures with helper methods, where returning a copy is inneficient
+		- you're using very large data structures with helper methods, where returning a copy is inneficient 
 		- you can have a boot-strapped "multiple return values" function
 		- [ ] the third one (T^T)
 
