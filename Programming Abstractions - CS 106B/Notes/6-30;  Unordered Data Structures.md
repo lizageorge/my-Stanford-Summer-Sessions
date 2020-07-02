@@ -24,3 +24,4 @@
 	- can cause bugs!! if you try and check for a value
 		- ![[Pasted image 118.png]] 
 		- ![[Pasted image 119.png]] use .get() or .contains instead!
+

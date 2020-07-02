@@ -25,5 +25,15 @@
 		- keep track of the path used to far for final answer
 		- full psuedocode;
 			- ![[Pasted image 147.png]]
-	
+
+
+##  Nesting Data Structures
+- putting any ADTs inside other ADTs
+- can help with organizing very complex data
+- [] keeping a queue of stacks to keep track of the paths in BFS
+- accessing elements within nested ADTs (watch out for working with references vs. with copies)
+	- you can access the reference of the nested ADT with *square-bracket notation*, and edit that
+		- ![[Pasted image 148.png]]
+	- if you use the *equals operator* you always recieve a reference to the nested ADT. So if you're working with a variable assigned using equals signs, be sure to reassign that back into the ADTS
+		- ![[Pasted image 149.png]]
 	
