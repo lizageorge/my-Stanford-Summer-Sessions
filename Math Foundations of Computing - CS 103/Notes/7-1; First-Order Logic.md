@@ -52,7 +52,6 @@
 	- **Translating Universal Statements ("for any choice of x, ...")**
 		- use the **universal quantifier** - upside down A
 			- [] ![[Pasted image 125.png]]
-			- ![[Pasted image 126.png]]
 		- A statement of the form `Ax.some-formula` is true iff, for every choice of x, the statement `some-formula` is true when x is plugged into it, as per the conditions in *your particular world*
 			- ![[Pasted image 127.png]]
 			- ![[Pasted image 128.png]] - all you need to disprove a universal statement in one counterexample

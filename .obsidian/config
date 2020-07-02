@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Math Foundations of Computing - CS 103/Notes/8-1; First-Order Logic.md",
+            "file": "Clientside Internet Technology - CS 193C/Notes/6-23; Intro to Web Programming.md",
             "mode": "preview"
           }
         }
@@ -84,11 +84,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Math Foundations of Computing - CS 103/Notes/8-1; First-Order Logic.md",
-    "Math Foundations of Computing - CS 103/Tasks.md",
-    "Math Foundations of Computing - CS 103/Notes/Untitled.md",
+    "Clientside Internet Technology - CS 193C/Notes/7-23; Intro to Web Programming.md",
+    "Programming Abstractions - CS 106B/Notes/8-1; Using ADTs Breadth-First Search.md",
     "Programming Abstractions - CS 106B/Notes/7-30;  Unordered Data Structures.md",
-    "Programming Abstractions - CS 106B/Tasks.md"
+    "Programming Abstractions - CS 106B/Notes/7-29; Ordered Data Structures.md",
+    "Programming Abstractions - CS 106B/Notes/7-25; Console Programs, Basic Data Structures, and Pass-By-Reference.md"
   ],
   "promptDelete": false,
   "attachmentFolderPath": "Attachments",
