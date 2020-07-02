@@ -3,7 +3,9 @@
 - [ ] Go through proofwriting checklist
 - [x] Checkpoint (due Sunday) (graded on completion, feedback by wednesday)
 - [ ] Problem Set 1 (due Thursday)
-	- [ ] look through first half of problems before meetings with grant
+	- [ ] look at feedback from checkpoint
+	- [ ] rewrite #5.1
+	- [ ] rewrite 6. 3
 	- [ ] use the proofwriting checklist when done
 - [ ] check out course reader?
 - [ ] go over skipped over part of lecture 6/22?
@@ -14,5 +16,5 @@
 
 ## To ask
 - [  ] pset 1
-	- 3.1 - equivalence vs elemof
-	- 3.2 - $ Y \not \subseteq D $ , $Y - D \neq \emptyset$
+	- 8.iii
+	- 6.iv

@@ -72,5 +72,12 @@ The day's summary of the day;
 			- ![[Pasted image 13.png]]
 	- ==Cantour's theorem== = the cardinality of *any set* is smaller than the cardinality of the power set of that set
 
+- ** We can translate an existential statement into set notation. [] "There is at least one element in set A" --> `A /noteq /emptyset` or `|A| /noteq 0`
+
 
 - thus we can prove that there's more problems than there are problems
+
+## Why Discrete Maths?
+- (from 7/1)
+- set theory can let us pin down abstract concepts
+- a broad approach to apply to problem solving - if you can *quantify* the problem, we can find a more efficient solution

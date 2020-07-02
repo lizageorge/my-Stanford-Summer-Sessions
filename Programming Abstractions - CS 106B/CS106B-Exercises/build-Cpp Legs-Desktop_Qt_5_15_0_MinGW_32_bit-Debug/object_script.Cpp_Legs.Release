@@ -1,0 +1,11 @@
+release/dmSoundex.o
+release/smarterPerfect.o
+release/smarterSoundex.o
+release/main.o
+release/perfect.o
+release/soundex.o
+release/spl.o
+release/MemoryDiagnostics.o
+release/TestDriver.o
+release/TestingGUI.o
+release/TextUtils.o

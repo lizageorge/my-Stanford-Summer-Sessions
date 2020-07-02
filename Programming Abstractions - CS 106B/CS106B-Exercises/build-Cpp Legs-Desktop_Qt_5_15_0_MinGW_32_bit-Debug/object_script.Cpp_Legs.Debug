@@ -1,0 +1,11 @@
+debug/dmSoundex.o
+debug/smarterPerfect.o
+debug/smarterSoundex.o
+debug/main.o
+debug/perfect.o
+debug/soundex.o
+debug/spl.o
+debug/MemoryDiagnostics.o
+debug/TestDriver.o
+debug/TestingGUI.o
+debug/TextUtils.o

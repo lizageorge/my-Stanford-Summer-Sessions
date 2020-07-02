@@ -1,5 +1,5 @@
 {
-  "theme": "obsidian",
+  "theme": "moonstone",
   "pluginEnabledStatus": {
     "File explorer": true,
     "Search": true,
@@ -16,14 +16,14 @@
     "type": "split",
     "children": [
       {
-        "id": "8aaa2ee56093df48",
+        "id": "978cffa8b6e061f4",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Programming Abstractions - CS 106B/Tasks.md",
-            "mode": "source"
+            "file": "Math Foundations of Computing - CS 103/Notes/8-1; First-Order Logic.md",
+            "mode": "preview"
           }
         }
       }
@@ -84,11 +84,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Programming Abstractions - CS 106B/Tasks.md",
-    "Math Foundations of Computing - CS 103/Notes/7-22; Intro to Sets.md",
-    "Math Foundations of Computing - CS 103/Notes/7-26; Indirect Proofs.md",
-    "Math Foundations of Computing - CS 103/Notes/7-24; Intro to Proofs - Direct Proofs.md",
-    "Math Foundations of Computing - CS 103/Notes/Proofwriting Checklist.md"
+    "Math Foundations of Computing - CS 103/Notes/8-1; First-Order Logic.md",
+    "Math Foundations of Computing - CS 103/Tasks.md",
+    "Math Foundations of Computing - CS 103/Notes/Untitled.md",
+    "Programming Abstractions - CS 106B/Notes/7-30;  Unordered Data Structures.md",
+    "Programming Abstractions - CS 106B/Tasks.md"
   ],
   "promptDelete": false,
   "attachmentFolderPath": "Attachments",

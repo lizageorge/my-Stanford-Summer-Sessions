@@ -1,21 +1,9 @@
 # Tasks for Programming Abstractions
 
-- [ ] check office hours schedule (for minors) on course website
-- [x] check the style guide on website
-- [x] read cs106b testing guide
-- [ ] Assignment 1! [due tue, jun 30]
-	- [ ] perfect numbers
-		- [x] basic
-		- [x] review
-		- [ ] extra
-	- [ ] soundex search
-		- [x] basic - just reached "Developing a census search program"
-		- [ ] review
-		- [ ] extra
-
-- [ ] check the difference bween pass-by-value and pass-by-reference (in c++ and java)
-- [ ] optional practice;
-	- [ ] check section assingments(optional to actually do it, answers in lauren's email)
+- cpntent confusions:
+	- [ ] check the difference bween pass-by-value and pass-by-reference (in c++ and java)
+- optional practice;
+	- [ ] section 2 assignments...Twice bonus
 	- [ ] generalized tower of hanoi method from lecture 6 (on ed) (code at the bottom T^T)
  
 ### Color: Purple
@@ -33,8 +21,8 @@
 	
 ##  Per Assingment
 - [ ] RESUBMIT!!! changes made since last submission;
-	- [ ] (no- email lauren about double submission, incl the nams of "normal" and "extra", incl link to nick's post on ed
-	- [ ] perfect:
+	- [ ] (no- email lauren about double submission,) in comments of extra files incl the names of "normal" and "extra" submissions
+	- [x] perfect:
 		- [ ] (really small) fixed the name of time trials for findperfectsmarter
 		- [ ] sPrimeSmarter, findNthPerfectEuclidSMarter - honestly only isPrimeSmarter showed any change at all, so maybe consider just keeping it in the same file? idk like just change the for loop to only be up to sqrt(n)
 	- [ ] soundex:
@@ -52,14 +40,14 @@
 	- [ ] (extra)extra efficiency in the isPrime method. Can I maybe get to n = 6?? (if so update errors on findnthperfecteuclid)
 		- [x] (does the for loop have to go all the way to n? swrt(n)? can it increment by 2/somehow skip all evens?)
 		- [ ] ~fancy~ algorithm online? (numberphile...? idk look it up)
-	- [ ] for extra efficiency changes, be sure to incl time tests to show any changes
+	- [x] for extra efficiency changes, be sure to incl time tests to show any changes
 	
 
 - [ ] Soundex
 	- [ ] do we need to know/can you explain how the inputting works?
 	- [ ] (extra) rearrange algorithm steps to combine some steps(like removing duplicates and zeroes), and update Q12 to match. 
 	- [ ] (extra) test efficiency of soundex search. can it be improved by first only checking the first letter in the do-while loop?
-	- [ ] (extra) implement another search system?
+	- [ ] (extra) implement another search system? DM code!
 	- [ ] I used the method [toUpperCase](https://web.stanford.edu/dept/cs_edu/cppdoc/strlib.html#Function:toUpperCase) on a char (in the method encode()) but the library says it's supposed to input and output strings. can any char/string specific method be interchanged like this? 
 
 
@@ -78,37 +66,7 @@
 
 
 
-//experimenting with error handling...I should probably check if the syllabus goes over this first
-//for question 10...There aren't really any edge cases to compare the method against, but I did check to make sure my error handling of any input less than 1 worked with two additional test cases...if I can find a way to test my error handling T^T
 
-//long findNthPerfectEuclid(long n)
-//{
-//    try {
-//        if( n < 1){
-//            throw n;
-//        }
-//        long prime =0;
-//        long count = 0;
-//        long k = 1;
-//        while(count < n){
-//            long m = pow(2, k) -1;
-//            if(isPrime(m)){
-//                prime = m* pow(2, k-1);
-//                count++;
-//            }
-//            k++;
-//        }
-//        return prime;
-//    } catch (long n) {
-//        cout<<"Input must be an integer greater than 1"<<endl;
-//        return 0;
-//    } catch(overflow_error){
-//        cout<<"Input is too great, must be less than 5"<<endl;
-//        return 0;
-//    }
-//}
-even better, smth from trip's YEAH slides;
-![[Pasted image 113.png]]
 
 
 
