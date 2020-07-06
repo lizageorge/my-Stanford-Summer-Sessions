@@ -9,8 +9,10 @@
 		- ![[Pasted image 145.png]]
 
 
+## Shortest Path algorithms
 - **Breadth-first Search**
-	- = we organize a search from the simplest "length" upwards 
+	- an algorithm usually used for shortest-path problems 
+	- bfs = we organize a search from the simplest "length" upwards 
 	- all the data we need to keep track of...
 		- keep track of each (partial) path --- ideal ADT = *stacks*
 			- need to easily access the "lates" elem
@@ -25,6 +27,8 @@
 		- keep track of the path used to far for final answer
 		- full psuedocode;
 			- ![[Pasted image 147.png]]
+	- perfect maze problem;
+		- ![[Pasted image 161.png]] (+ add each visited elem to a set to keep track of them all)
 
 
 ##  Nesting Data Structures
@@ -36,4 +40,12 @@
 		- ![[Pasted image 148.png]]
 	- if you use the *equals operator* you always recieve a reference to the nested ADT. So if you're working with a variable assigned using equals signs, be sure to reassign that back into the ADTS
 		- ![[Pasted image 149.png]]
+
+## Search Algorithms 
+- (from the notes of the second part of assign2, Search Engine)
+- the database you use to store information to search can either be a *forward index* or an *inverted index*
+	- forward indexes are when you organize the information by location - so the key would be a url and the value would be all the information on that webpage
+	- inverted indexes are when you organize information by the value - so the words in every webpage would the keys, and all the locations of those words would be the values. 
+		- An example of an inverted index is the index of a textbook, where voabulary words are listed with page numbers to find their usage listed next to them
+	- for instantaneous searches, inverted indexes are much better (even though the database itself takes a long time to make)
 	
