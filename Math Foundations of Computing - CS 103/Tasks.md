@@ -4,6 +4,9 @@
 - [x] Checkpoint (due Sunday) (graded on completion, feedback by wednesday)
 - [ ] Problem Set 2 (due Thursday)
 	- [ ] look at solutions of pset1
+	- [ ] read guide to negations
+	- [ ] go to OH for clarification on 2.5
+	- [ ] check your answers for 3 against grant's
 	- [ ] use the proofwriting checklist when done
 - [ ] check out course reader?
 - [ ] go over skipped over part of lecture 6/22?

@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Clientside Internet Technology - CS 193C/Notes/7 - 6; HTML and CSS.md",
+            "file": "Math Foundations of Computing - CS 103/Notes/Guide to Negations.md",
             "mode": "source"
           }
         }
@@ -84,11 +84,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Clientside Internet Technology - CS 193C/Notes/7 - 6; HTML and CSS.md",
-    "Clientside Internet Technology - CS 193C/Notes/6-23; Intro to Web Programming.md",
-    "Clientside Internet Technology - CS 193C/Notes/Untitled.md",
-    "Programming Abstractions - CS 106B/Notes/7-1; Using ADTs Breadth-First Search.md",
-    "Programming Abstractions - CS 106B/Notes/7-2; Big-O Notation and Algorithmic Analyses.md"
+    "Math Foundations of Computing - CS 103/Notes/Untitled.md",
+    "Math Foundations of Computing - CS 103/Tasks.md",
+    "Math Foundations of Computing - CS 103/Notes/6-29; Propositional Logic.md",
+    "Programming Abstractions - CS 106B/Notes/7-6; Recursion.md",
+    "Programming Abstractions - CS 106B/Notes/Transitioning from Java to C++.md"
   ],
   "promptDelete": false,
   "attachmentFolderPath": "Attachments",

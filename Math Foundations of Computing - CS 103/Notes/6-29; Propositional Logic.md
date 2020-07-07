@@ -85,6 +85,8 @@
 - ![[Pasted image 82.png]]
 - ![[Pasted image 83.png]]
 - `p --> q == !(p && !q) == !p || !!q==  !p || q` The equivalence is true because, in both cases, only if q is false is the statement false. 
+- `p ^ q == !(p -> !q)`
+- `p v q == !( !p ^ !q)`
 
 
 ## Why all this matters

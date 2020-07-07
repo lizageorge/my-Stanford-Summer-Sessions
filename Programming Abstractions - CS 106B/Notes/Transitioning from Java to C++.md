@@ -46,3 +46,6 @@ Resources:
     		std::cout << "you entered " << x;
 			```
 			- use the *extractor operator* this time, `>>`, to take the output of the previous function and assign the following var to it (the extractor and insertion operators go in the flow of the direction)
+- Void methods
+	- methods with return type void can still use `return` to end the flow of the function as long as it doesn't include a value
+	- []![[Pasted image 223.png]]
