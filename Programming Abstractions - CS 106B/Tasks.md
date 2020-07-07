@@ -4,6 +4,7 @@
 	- [ ] check the difference bween pass-by-value and pass-by-reference (in c++ and java)
 - optional practice;
 	- [ ] section 2 assignments...Twice bonus
+		- [ ] (diagnostic next week will have problems similar to section problems)
 	- [ ] generalized tower of hanoi method from lecture 6 (on ed) (code in sublime)
  
 ### Color: Purple
@@ -12,7 +13,7 @@
 ## Questions
 - [ ] do function header comments have to follow a certain format, like standard function headers in java?
 - [ ] (QT Creator) is there a way to jump from breakpoint to the next breakpoint without having to step-over again and again (like in intellij)?
-- [ ] do student test cases have to be listed seperately at bottom of the file 
+- [x] do student test cases have to be listed seperately at bottom of the file 
 - ASSIGN 1:
 	- [ ] should i add tests that compare my paths to provided solutions?
 
@@ -44,6 +45,7 @@
 		- [x] clean token
 		- [x] readDoc
 		- [ ] buildIndex
+			- [ ] more tests?
 		- [ ] findQueryMatches
 		- [ ] searchEngine
 	- [ ] read over, submit

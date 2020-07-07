@@ -2,12 +2,8 @@
 
 - [ ] Go through proofwriting checklist
 - [x] Checkpoint (due Sunday) (graded on completion, feedback by wednesday)
-- [ ] Problem Set 1 (due Thursday)
-	- [ ] look at feedback from checkpoint
-	- [ ] rewrite #5.1
-	- [ ] rewrite 6. 3
-	- [ ] write up 8.3
-	- [ ] look over 4.4
+- [ ] Problem Set 2 (due Thursday)
+	- [ ] look at solutions of pset1
 	- [ ] use the proofwriting checklist when done
 - [ ] check out course reader?
 - [ ] go over skipped over part of lecture 6/22?

@@ -1,5 +1,5 @@
 # Intro to Web Programming
-### June 23, 2020 - first class
+### June 23, 2020 - July 6, 2020 - first class
 
 ## How the Web Works
 - when the web client (computer/a browser surface) enters in a url, the browser fetches a file from a web server.
@@ -35,3 +35,14 @@
 
 ### single-page applications
 - instead of webpages being replaced with every html call, with SPA a JS program interacts with the server (not the webpage), gets data (not new html files!), and then updates the single webpage 
+
+
+
+
+
+
+
+
+
+
+

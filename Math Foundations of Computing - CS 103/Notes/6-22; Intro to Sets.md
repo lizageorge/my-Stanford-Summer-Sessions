@@ -45,7 +45,6 @@ The day's summary of the day;
 	- *the empty set* *is a subset of* every set T
 		- "all objects of type are also of type Q"  - this statement is an example of smth that is ==vacously true== if there are no objects of type P, so there is no way to disprove it, so it is by definition true
 		- []All unicorns are pink, all unicorns are blue - you can't find a non-pink unicorn to disprove the first statement
-- (==missed a little!!!!==)
 - Being an element of and Being a subset of are two different things!
 	- subsets of multiple elements can't be elements of another set ({1, 2} *not an element of* {2, 3, 4, 5, }), but a subset of a single element can be ( {2} *an element of* {2, 3, 4, 5})
 	- a single element cannot be a subset of another set bc it's not a set ({2} *is not an element of* {2, 3, 4, 5})
