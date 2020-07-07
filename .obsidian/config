@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Clientside Internet Technology - CS 193C/Notes/6-23; Intro to Web Programming.md",
+            "file": "Clientside Internet Technology - CS 193C/Notes/7 - 6; HTML and CSS.md",
             "mode": "source"
           }
         }
@@ -84,11 +84,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Clientside Internet Technology - CS 193C/Notes/7 - 6; HTML and CSS.md",
     "Clientside Internet Technology - CS 193C/Notes/6-23; Intro to Web Programming.md",
-    "Programming Abstractions - CS 106B/Tasks.md",
-    "Programming Abstractions - CS 106B/Notes/6-30;  Unordered Data Structures.md",
-    "Programming Abstractions - CS 106B/Notes/7-6; Recursion.md",
-    "Programming Abstractions - CS 106B/Notes/7-1; Using ADTs Breadth-First Search.md"
+    "Clientside Internet Technology - CS 193C/Notes/Untitled.md",
+    "Programming Abstractions - CS 106B/Notes/7-1; Using ADTs Breadth-First Search.md",
+    "Programming Abstractions - CS 106B/Notes/7-2; Big-O Notation and Algorithmic Analyses.md"
   ],
   "promptDelete": false,
   "attachmentFolderPath": "Attachments",
