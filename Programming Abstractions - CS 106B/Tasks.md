@@ -16,9 +16,11 @@
 - [x] do student test cases have to be listed seperately at bottom of the file 
 - ASSIGN 1:
 	- [ ] should i add tests that compare my paths to provided solutions?
+- [ ] weird 'not accessible' thing in debugger, can't see any sets ![[Pasted image 264.png]], ![[Pasted image 265.png]]
 
 	
 ##  Per Assingment - Assign 2
+- [ ] look over assign1 grades!
 - [x] part 0 /warmup
 - [ ] maze
 	- [ ] basic
@@ -44,10 +46,11 @@
 	- [ ] basic
 		- [x] clean token
 		- [x] readDoc
-		- [ ] buildIndex
+		- [x] buildIndex
 			- [ ] more tests?
-		- [ ] findQueryMatches
+		- [x] findQueryMatches
 		- [ ] searchEngine
+		- [ ] header comments
 	- [ ] read over, submit
 	- [ ] extra
 

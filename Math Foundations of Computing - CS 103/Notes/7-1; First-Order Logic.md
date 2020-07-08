@@ -58,7 +58,8 @@
 			- ![[Pasted image 129.png]] - this statement (If every x is smiling, every x is wearing a hat) is *true* because it follows the P:Q F:T structure (look at the truth table for p --> q)
 			- in an empty world, you cannot find a *counterexample* to a unversale statment, so any statement is vacously true.
 				- ![[Pasted image 130.png]]
-
+- if you have multiple quantifiers chained together, unless otherwise specified, the two variables can represent the same value. so if you're writing a statement, keep in mind that that's an edge case 
+	- [] `Aa \in A. Ab \in A. (aRb -> bRa)`has to hold true even if a and b represent the same object
 
 ## Translating English into First Order Logic
 - very useful for manipulating defintions and propositions for proofs

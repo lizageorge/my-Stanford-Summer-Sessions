@@ -1,5 +1,5 @@
 # The Art of Translation
-### August 1, 2020 - lecture 6
+### August 6, 2020 - lecture 6
 
 
 - Recap of the day;	

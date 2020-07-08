@@ -1,5 +1,5 @@
 # Recursion
-### August 6-7, 2020 - day 9-10
+### August 6-8, 2020 - day 9-11
 
 ### Defining Recursion
 - **Recursion** = a problem solving technique where a task is split into repeated smaller tasks that take on the same form
@@ -79,7 +79,62 @@
 		- it makes sense to use iteration to call those 8 carpets - *you can combine recursion and iteration as needed*
 
 
+## Why we use Recursion
+### elegance
+- [] Towers of Hanoi
+	- suppose we have four disks. we already have an algorithm to move three disks onto the auxilary peg. after that we can move the fourth pin to destination. and then we have an algorithm that can move three pins from auxillary to destination!
+	- iterative solution;
+		- ![[Pasted image 292.png]]
+	- recursive solution
+		- ![[Pasted image 293.png]]
+	- O(2^n) to find solution for n disks
 
+### efficient
+- [] Binary Search
+	- the process of looking at the middle index and halving the list we're searching repeats, and can be repeated recursively
+	- base case = found the element, recursive case = binary search the right/left half of the data
+	- ![[Pasted image 294.png]] (the first check will only return if the element is not in the list, so it counts as a base case)
+- we can use recursive *helper functions* to further abstract your function. In this example, the recursive calls need the start and end index parameters, but we don't want the user to handle that. so we use another function to abstract that away
+	- ![[Pasted image 295.png]]
+- the complexity of binary search is O(log(N))
+	- ![[Pasted image 296.png]]
+	- we drop the base 2 bc the rate of change of log(N) and log_2(N) are comparable
+- ![[Pasted image 297.png]] an exhaustive search would use O(n)
+- there are a few standard methods for sorting and searching that use similar recursive algorithms and have logarithmic complexity
+	- ![[Pasted image 298.png]] 
+
+### dynamic
+- there are some problems that are almost to solve iteratively, when there are many possible solutions and paths for solving. This is when you have to use recursion.
+- **Recursive Backtracking** - make a choice on solving a solution, explore that choice, and then going back and making another choice (*choose-explore-choose*)
+	- [] making coin flip combinations
+		- you can find a self-similar pattern in each possible branching of combinations of coins like adding on to old braches (HH -> HHT and HHH, etc.)
+		- you can think of this using *decision trees*
+			- ![[Pasted image 299.png]] 
+			- the base case is when you reach the *leaves of your decision tree*, recursive cases are the *decision points/branch joints* (so there's a recursive call in the function for each decision to be made. if this was a combination of dice rolls, there would be six calls)
+		- base case = when flipsLeft = 0, recursive case = when you add "H" or "T" to the end of a sequence
+		- ![[Pasted image 300.png]] 
+	- in recursive backtracking, we actually give an empty solution as a parameter, and have the final output being made at the leaves (as opposed to regular recursive function where a value is returned back up the tree from the base case and output is only found at main call)
+		- ![[Pasted image 301.png]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- 
 
 
 
