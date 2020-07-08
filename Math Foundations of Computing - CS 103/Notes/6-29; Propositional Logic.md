@@ -37,7 +37,7 @@
 - one last "connective"-ish pair; is a univeral true value (represented by a `T`), and a universally false value (represented by an upside down T)
 
 - **operator precedence**
-	- ![[Pasted image 72.png]] is the order, bottom-to-top ou would parenthesise a string with
+	- ![[Pasted image 72.png]] is the order, bottom-to-top (you would parenthesise a string with)
 	- all operators are right-associative (so they work on just the term directly to the right - this is most clear with the not-operator)
 	- just use parenthesis
 

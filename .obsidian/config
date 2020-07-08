@@ -16,14 +16,14 @@
     "type": "split",
     "children": [
       {
-        "id": "86cdf5b01800325d",
+        "id": "3c60bec595c3f9a2",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "Math Foundations of Computing - CS 103/Notes/Guide to Negations.md",
-            "mode": "source"
+            "mode": "preview"
           }
         }
       }
@@ -84,11 +84,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Math Foundations of Computing - CS 103/Notes/Untitled.md",
+    "Math Foundations of Computing - CS 103/Notes/Guide to Negations.md",
     "Math Foundations of Computing - CS 103/Tasks.md",
+    "Clientside Internet Technology - CS 193C/Notes/7 - 6; HTML and CSS.md",
     "Math Foundations of Computing - CS 103/Notes/6-29; Propositional Logic.md",
-    "Programming Abstractions - CS 106B/Notes/7-6; Recursion.md",
-    "Programming Abstractions - CS 106B/Notes/Transitioning from Java to C++.md"
+    "Math Foundations of Computing - CS 103/Notes/Untitled.md"
   ],
   "promptDelete": false,
   "attachmentFolderPath": "Attachments",
