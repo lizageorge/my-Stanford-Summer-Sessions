@@ -15,27 +15,27 @@
 - [ ] (QT Creator) is there a way to jump from breakpoint to the next breakpoint without having to step-over again and again (like in intellij)?
 - [x] do student test cases have to be listed seperately at bottom of the file 
 - ASSIGN 1:
-	- [ ] should i add tests that compare my paths to provided solutions?
+	- [x] should i add tests that compare my paths to provided solutions?
 - [ ] weird 'not accessible' thing in debugger, can't see any sets ![[Pasted image 264.png]], ![[Pasted image 265.png]]
 
 	
 ##  Per Assingment - Assign 2
-- [ ] look over assign1 grades!
+- [x] look over assign1 grades!
 - [x] part 0 /warmup
 - [ ] maze
-	- [ ] basic
+	- [x] basic
 		- [x] generateValidMoves
 		- [x] checkSolution
-		- [ ] solveMaze
-			- [ ] should i add tests that compare my paths to provided solutions?
-			- [ ] why isn't the expect equal in my solvemaze test for impossible maze reporting? in simple test, only the expect-error call shows up
+		- [x] solveMaze
+			- [x] should i add tests that compare my paths to provided solutions?
+			- [x] why isn't the expect equal in my solvemaze test for impossible maze reporting? in simple test, only the expect-error call shows up
 		- [x] readMazeFile
-		- [ ] header comments
+		- [x] header comments
 	- [ ] read over, submit
 	- [ ] extra
 		- [ ] more tests on generateValidMoves, more cases per test?
 		- [ ] more tests on checkSolution, more cases per test?
-		- [ ] fancy error messages for checkSolution
+		- [ ] fancy error messages for checkSolution (figure out how to concat ints to strings - //string message = "Path contains an element out of bounds - " + cur.row + ', ' + cur.col;)
 		- [ ] (proper extension) look into generating valid mazes
 		- [ ] (proper extension) compare with different search algorithms
 		- [ ] somehow make solvemaze a little more efficient, test with timing...
@@ -43,14 +43,14 @@
 			- [ ] test south and east neighbors first
 		- [ ] something...with non perfect mazes?
 - [ ] search engine
-	- [ ] basic
+	- [x] basic
 		- [x] clean token
 		- [x] readDoc
 		- [x] buildIndex
 			- [ ] more tests?
 		- [x] findQueryMatches
-		- [ ] searchEngine
-		- [ ] header comments
+		- [x] searchEngine
+		- [x] header comments
 	- [ ] read over, submit
 	- [ ] extra
 

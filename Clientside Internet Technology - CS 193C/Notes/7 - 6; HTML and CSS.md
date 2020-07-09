@@ -35,8 +35,8 @@
 	- check any new features against caniuse.com
 
 
-## CCC
-- CCC (cascading style sheets) is used to present information
+## CSS
+- CSS (cascading style sheets) is used to present information
 - some people believe that HTML should be used purely for semantic info and CSS should be used for presnetational info. So they use `<strong>` instead of bolding, and `<em>` instead of italicisizing. This makes it easier to update styling.
 
 
