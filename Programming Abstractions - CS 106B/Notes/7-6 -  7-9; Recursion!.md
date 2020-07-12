@@ -1,5 +1,5 @@
 # Recursion
-### August 6-8, 2020 - day 9-11
+### July 6-9, 2020 - day 9-12
 
 ### Defining Recursion
 - **Recursion** = a problem solving technique where a task is split into repeated smaller tasks that take on the same form
@@ -117,9 +117,23 @@
 		- ![[Pasted image 301.png]]
 
 
-
-
-
+### More on Recursive Backtracking
+- **When to use Recursive Backtracking**
+	- to generate all possible solutions
+		- --> find best possible solution
+		- --> determine if a certain solution exists
+- [] Unscrambling words
+	- generate a sequence of letters (like generating coin flips), but the number of choices avaiable is constrained by previous letters
+		- there are always n! permutations of a combination of n elements
+	- we can think of this as taking one letter, and adding it to all permutations of the remaining letters. So the base case is no letters left to choose from, recursive case is adding on combinations to previous combinations
+		- so each level of the tree will have a different number of options, and as we go we have to keep track of remaining elements = **shrinkable decision tree**
+		- [] ![[Pasted image 341.png]]
+	- ![[Pasted image 342.png]]
+	- with backtracking, we could explore a variable number of options at each step
+- [] finding shrinkable words
+	- we need to look at every subset of a word to see if it's a valid english word
+	- base case = shrinkable single-letter word + a string that is not a word, recursive case = a multi-letter word to test for shrinkable
+	- ![[Pasted image 343.png]]
 
 
 

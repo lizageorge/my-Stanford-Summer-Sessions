@@ -22,8 +22,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Clientside Internet Technology - CS 193C/Notes/7-8; Layouts.md",
-            "mode": "source"
+            "file": "Math Foundations of Computing - CS 103/Notes/7-8; Binary Relations (+ Partitions and Prerequisites).md",
+            "mode": "preview"
           }
         }
       }
@@ -84,11 +84,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Clientside Internet Technology - CS 193C/Notes/Layouts.md",
-    "Clientside Internet Technology - CS 193C/Tasks.md",
-    "Clientside Internet Technology - CS 193C/Notes/Untitled.md",
-    "Clientside Internet Technology - CS 193C/Notes/7 - 6; HTML and CSS.md",
-    "Clientside Internet Technology - CS 193C/Notes/6-23; Intro to Web Programming.md"
+    "Math Foundations of Computing - CS 103/Notes/7-8; Binary Relations (+ Partitions and Prerequisites).md",
+    "Math Foundations of Computing - CS 103/Notes/6-24; Intro to Proofs - Direct Proofs.md",
+    "Math Foundations of Computing - CS 103/Notes/6-26; Indirect Proofs.md",
+    "Math Foundations of Computing - CS 103/Tasks.md",
+    "Math Foundations of Computing - CS 103/Notes/Proofwriting Checklist.md"
   ],
   "promptDelete": false,
   "attachmentFolderPath": "Attachments",

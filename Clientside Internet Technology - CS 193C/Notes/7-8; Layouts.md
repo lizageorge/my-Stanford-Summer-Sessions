@@ -75,9 +75,39 @@
 	- very similar to table-based layout, but the styling is in the css styling, not in semantic html. so it can be dynamic/responsive!	
 
 
+### CSS Positioning
+- used for very specific uses, not for general webpage layout
 
+- the `position` property;
+	- `absolute` elem will scroll normally with other elems (coordinates will be relative to the nearest container)
+		- []- [] ![[Pasted image 340.png]], ![[Pasted image 339.png]] -- setting the header to have certain coordinates, and keeps that position when you scroll down too
+	- `relative` elem will scroll normally with other elems (coordinates will be relative to the where the *elem would have gone otherwise*. used when you want smth to be fixed compared to another elem, but still flexible within the page)
+	- `fixed` elem will keep position as webpage scrolls
+	- `sticky` elem will scroll normally until it reaches the top of display window, after which it will stay there
 
+## Responsive Layouts
+- changing the look of the website depending on the device the page is viewed on
+- some people have two different sites for web and mobile, but this mean
+	- supporting two different sites
+	- doesn't work well on tables
+	- uses the `user-agent` css property tp find what kind of device the site is viewed on (needs to be updated as user-agent list changes)
 
+### Media Attributes
+- you can use the `media-attributes` to determine how the website is viewed (screen, print, etc.)
+- incl this in the link to different stylesheets for different medias
+	- ![[Pasted image 329.png]]
+- OR you can use `@media` in an html style tag
+	- ![[Pasted image 330.png]]
+
+### Media Queries
+- be able to ask specific properties of the device (dispaly width, aspect ratio, screen orientation, colours available, hover/finger, etc.)
+- now you can have only more specific rules change based on ^, and use just one stylesheet
+	- []![[Pasted image 333.png]]
+	- ![[Pasted image 334.png]] --> this nav-id list will list horizontally when the display is less than 600px
+	- ![[Pasted image 335.png]] --> the nav will only show on landscape orientation
+	- []![[Pasted image 336.png]] --> if someone is using a finger, nav elems will be much bigger
+- using Grid
+	- have different stylesheets/set of rules - one for 
 
 
 

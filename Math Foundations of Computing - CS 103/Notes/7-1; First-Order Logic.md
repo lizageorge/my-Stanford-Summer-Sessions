@@ -107,7 +107,7 @@
 		- could have used symbols for all descriptions, without english "elem of..."
 		- DO NOT INCLUDE "because powerset is a set of all subsets.." etc. Just "If S is an element of the powerset of A, S /subset A. "
 
-
+-  note that none of these proofs include FOL notation! FOL is used for intuition help and defining, but proofs are supposed to be readable and easily understood. Keep you proofs in English!
 
 
 

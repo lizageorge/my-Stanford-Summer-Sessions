@@ -12,7 +12,14 @@
 	- [ ] ![[Pasted image 302.png]]
 	- [ ] maybe use a reset?
 - [ ] learn layout...
-- everythign
+- connection
+	- [ ] can i use like bold or emph in html? or is that crossing semantic/style?
+	- [ ] fix the widths within main-content (bio should be wider, updates should fill space - flex? grid? or can i fill it our with float?)
+	- [ ] add form
+- performing arts
+	- [ ] learn responsive layout...
+- everything
 	- [ ] check against validators
 	- [ ] (opt) check against firefox and ie
+
 - [ ] change to vs instead of vs code..

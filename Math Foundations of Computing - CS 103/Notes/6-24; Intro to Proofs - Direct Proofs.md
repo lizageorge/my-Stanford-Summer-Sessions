@@ -14,6 +14,7 @@ The summary of the day;
 - *An integer is odd if there is an integer k such that n=2k+1* (so 0 is odd)
 
 ### Direct Proofs
+- To prove an implication, you assume the antecedent and prove the consequent ("let's assume [antecedent], we will show that [conseqent]...")
 - **Theorem: If n is even, then n^2 is even**
 	`Let n be an even integer.` - if we'r eusing a *if P, then Q* structured-theorem, we should start by assuming P and work down to prove Q
 	`Since n is even, there must be k such that n = 2k.` - it's common to call back to mathematical definitions to be rigourous and specific

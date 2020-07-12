@@ -1,7 +1,7 @@
 # Binary Relations
-### August 8, 2020 - lecture 7
+### August 8 - 10, 2020 - lecture 7-8
 
-- recap of the day;
+- recap of the day (lecture 7);
 	- ![[Pasted image 291.png]]
 
 ## Binary Relations
@@ -14,7 +14,8 @@
 - (official definition) a **binary relation over set A is a predicate R that can be applied to ordered pairs of elements drawn from set A. If the binary relation holds for the pair (a, b), then `aRb`**
 	- *order matters!* (there are some relations where order doesn't matter, but by default the order in which you draw the elements matters)
 	- the two elements need to have some matching relation for that relation (so you can't use \subsetof on two integers, you can't use < on two sets). So the *relation is defined by the set you're drawing elements from.*
-
+- **  note - relation definitions, by convention, always use "If" instead of "Iff"
+	- ![[Pasted image 344.png]]
 - *visual representations*
 	- we can draw graphs where an arrow pointing from a to b can represent `aRb`
 	- [] to represent `a | b` (a cleanly divides b) on the set A = {1, 2, 3, 4}
@@ -33,7 +34,9 @@
 	- we can have a few rules for this. is `R` is the relation representing "is in the same cluster as"
 		- `aRa` (reflexivity)  ,   `aRb -> bRa`  (symmetry),  `aRb ^ bRc -> aRc` (transitivity)
 	- we can translate this intp FOL; ![[Pasted image 274.png]]
-
+- there's one additional property - the partition relation is *cyclic*
+	- ![[Pasted image 348.png]]
+	- ![[Pasted image 349.png]]
 
 ### Equivalence Relations
 - type of binary relation that follows all three of the following properties
@@ -42,7 +45,7 @@
 		- [] `x = x for any x`, `A \subset A for some set A`
 		- [] ![[Pasted image 275.png]]
 		- `R` is relfexive if `Aa \in A. aRa` ("Every element is related to itself ")
-	-	**Symmetry** = when a relation holds true even when the relative order of the objects is switches
+	-	**Symmetry** = when a relation holds true even when the relative order of the objects is switchese
 		-	[] `if x = y, then y = x` 
 		-	![[Pasted image 277.png]] (because a has no relations, the implication is vacously true)
 		-	`R` is symmetric if `Aa \in A. Ab \in A. (aRb -> bRa)` ("If a is related to b, then b is related to a")
@@ -69,8 +72,9 @@
 - we can have a few rules about this new relation `R`
 	- irreflexivity, transitivity, asymterry
 	- ![[Pasted image 287.png]]
-	- **Irreflexivity**
-		- [ ]
+	- **Irreflexivity** = no element is related to itself
+		- [ ] g
+		- `Aa \in A. !aRa`
 		- ** reflexivity and irreflexivity are not negations of each other! (they are both universally quantified)
 	- **Asymmetry** = when the relative order of two objects in a relation can never be reversed
 		- [] `if x < y, y !< x`
@@ -87,9 +91,28 @@
 	- functions like sort() and operators like < follow strict order relations (c++ requires that if you overload either)
 
 
+## Proofs with Binary Relations
 
+### Proofs with Equivalence Relations
+- prove that a relation R is an equivalence relation over the set A
+- you have to prove each property independently, using the FOL definition
+- [] `a~b over the integers if a + b is even~`, `~` is an equivalence relation
+	- ![[Pasted image 345.png]]
+	- ![[Pasted image 346.png]]
+	- ![[Pasted image 347.png]]
+	- ** note that none of these proofs include FOL! FOL is used for intuition help and defining, but proofs are supposed to be readable and easily understood. Keep you proofs in English!
 
+- [] `Theorem: A relation R over set A is an equivalence relation iff it is reflexive and cyclic`
+	- to prove biconditional statements, we have to prove the implication both ways
+	- [ ] backlink?
+	- ![[Pasted image 350.png]]
+	- ![[Pasted image 351.png]]
 
-
+- [] `Say the inverse relation (R^-1) over set A means that x(R^-1)y if yRx. Prove or disporve: if R is an equivalence relation over A, then (R^-1) is an equivalence relation over A`
+	- when given a prove/disproof problem, just try proving and disproving both
+	- when given a new definitino like this, look at some concrete examples of it (`([] > --> <, = --> =)`)
+	- ![[Pasted image 352.png]]
+	- [ ] go over thiissss
+- For more details on how exactly to write proofs of equivalence, check out the [Guide to Proofs on Discreet Structures](http://web.stanford.edu/class/archive/cs/cs103/cs103.1208/handouts/Guide%20to%20Proofs%20on%20Discrete%20Structures.pdf)
 
 

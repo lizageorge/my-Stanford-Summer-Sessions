@@ -55,8 +55,9 @@ if n is even, then n^2 is even)
 
 - **Biconditionals** = sometimes two different implications (each going the other way) that imply each other. We can make a new statement with *if and only if* from them.	
 	- []"For any integer n, if n is even, then n^2 is even", "For any integer n, if n^2 is even, then n is even" --> "For any integer n, n is even if and only if n^2 is even"
-	- To prove a biconditional in the form *P is true iff Q is true* you need to prove that (first) if P is true, then Q is true, and (second) if Q is true then P is true. You can use any proof technique for those. 
+	- To prove a biconditional in the form *P is true iff Q is true* you need to prove that (first) if P is true, then Q is true, and (second) if Q is true then P is true. You can use any proof technique for those (prove the implication both wars)
 	- ![[Pasted image 57.png]]
+	- [] Cyclic /\ Reflexive <-> Equivalence Relation Proof
 
 
 - **Proof by Condradiction** = we can prove that a statement is true by proving that it *cannot be false*
