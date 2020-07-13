@@ -1,5 +1,5 @@
 # Binary Relations
-### August 8 - 10, 2020 - lecture 7-8
+### July 8 - 10, 2020 - lecture 7-8
 
 - recap of the day (lecture 7);
 	- ![[Pasted image 291.png]]
@@ -62,6 +62,7 @@
 	- **The Fundamental Theorem of Equivalence Relations** = Let R be an equivalence relation over a set A. Then every element a\inA belongs to exactly one equivalence class of R 
 		- ([] you can't have an object that has multiple shapes and is thus in multiple ECs)
 		- this captures the rules we need for partitions 
+	- **system of representatives** = If you pick exactly one element fromeach equivalence  class  and  gather  the  result  into  a  set,  you  get what’s  called  asystem of representativesforR.Stated differently, a system of representatives for an equivalence relationRover a setAis a setX⊆Asuch thatXcontains exactly one element of each equivalence class ofR
 - Equivalence Relations in IRL
 	- any sort of hash-table/map data structure has to be able to keep keys distinct. They do this using a rigourous definition of equality that follows rule for equivalence relations;
 	- [] ![[Pasted image 284.png]]
@@ -83,7 +84,8 @@
 		- 
 
 ### Strict Orders
-- type of binary relation that has *irreflexivity, transitivity, asymterry*
+- type of binary relation that has *irreflexivity, transitivity, asymtetry*
+	- actually, the definition works even if you leave out the assymetry, since a relatoinship that is irreflexive and transitive is also necessarily assymetric (Pset 3, Question 3)
 - [] `<, >, "x can run faster than y"`
 - represent prerequisite structures, and can also model dependencies, rankings, etc.
 - Strict Orders IRL;

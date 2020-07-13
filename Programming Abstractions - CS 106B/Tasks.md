@@ -2,7 +2,9 @@
 
 - content confusions:
 	- [ ] check the difference bween pass-by-value and pass-by-reference (in c++ and java)
+	- [ ] trip said " O(log(n)) is the fastest possible runtime for search algorithms. Why is that?"
 - optional practice;
+	- [ ] section 3 practice
 	- [ ] section 2 assignments...Twice bonus
 		- [ ] (diagnostic next week will have problems similar to section problems)
 	- [ ] generalized tower of hanoi method from lecture 6 (on ed) (code in sublime)
@@ -12,45 +14,48 @@
 
 ## Questions
 - [ ] do function header comments have to follow a certain format, like standard function headers in java?
-- [ ] (QT Creator) is there a way to jump from breakpoint to the next breakpoint without having to step-over again and again (like in intellij)?
-- [x] do student test cases have to be listed seperately at bottom of the file 
-- ASSIGN 1:
-	- [x] should i add tests that compare my paths to provided solutions?
 - [ ] weird 'not accessible' thing in debugger, can't see any sets ![[Pasted image 264.png]], ![[Pasted image 265.png]]
+- [ ] ASSIGN 3
+	- [ ] is the "limit" of stacks before quiting (Question 9, Question2) of 10000 stacks unique to QT or is that what my PC would have done too? is the behavior of quitting after a certain number unique to QT or would my PC do it too?
+	- [ ] just help on question 9
 
 	
-##  Per Assingment - Assign 2
-- [x] look over assign1 grades!
-- [x] part 0 /warmup
-- [ ] maze
-	- [x] basic
-		- [x] generateValidMoves
-		- [x] checkSolution
-		- [x] solveMaze
-			- [x] should i add tests that compare my paths to provided solutions?
-			- [x] why isn't the expect equal in my solvemaze test for impossible maze reporting? in simple test, only the expect-error call shows up
-		- [x] readMazeFile
-		- [x] header comments
-	- [ ] read over, submit
-	- [ ] extra
-		- [ ] more tests on generateValidMoves, more cases per test?
-		- [ ] more tests on checkSolution, more cases per test?
-		- [ ] fancy error messages for checkSolution (figure out how to concat ints to strings - //string message = "Path contains an element out of bounds - " + cur.row + ', ' + cur.col;)
-		- [ ] (proper extension) look into generating valid mazes
-		- [ ] (proper extension) compare with different search algorithms
-		- [ ] somehow make solvemaze a little more efficient, test with timing...
-			- [ ] different algorithm entirely?
-			- [ ] test south and east neighbors first
-		- [ ] something...with non perfect mazes?
-- [ ] search engine
-	- [x] basic
-		- [x] clean token
-		- [x] readDoc
-		- [x] buildIndex
-			- [ ] more tests?
-		- [x] findQueryMatches
-		- [x] searchEngine
-		- [x] header comments
-	- [ ] read over, submit
-	- [ ] extra
+##  Per Assingment - Assign 3
+- [ ] look over assign2 grades!
+- [ ] do i have to put recursive cases into an else block?
+- [ ] Part 1 - Fund Recursion
+	- [x] warmup
+		- [ ] is there a reason we didn't use the provided c++ pow function?
+	- [ ] balanced operators
+		- [x] operatorsOnly
+			- [ ] more test cases?
+		- [x] checkOperators
+			- [ ] can i please use a stack and for loop? (not so pressing anymore)
+	- [ ] sierpinski fractal
+		- [ ] (extra:) more self-similar image algorithms
+	- [ ] merging sorted sequences
+		- [x] merge
+			- [ ] (extra) figure out how to error catch non-sorted lists as you go
+			- [x] time operation question
+		- [x] multiMerge time operation question
+		- [ ] recMultiMerge
+			- [ ] time operation question
+	- [ ] functio headers
+- [ ] Part 2 - Recursive Backtracking
+	- [ ] warmup
+	- [ ] boggle
+	- [ ] (extra - voting)
+- [ ] file headers
+
+
+
+## Prep for Midterm
+- [ ] look at midterm page
+- [ ] download bluebook
+
+
+
+
+
+
 

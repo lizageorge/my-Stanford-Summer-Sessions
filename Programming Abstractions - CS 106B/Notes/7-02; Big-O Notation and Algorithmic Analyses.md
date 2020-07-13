@@ -25,3 +25,4 @@
 	- [] the nested for loop to iterate through a matrix of r rows and c collumns has O(r* c)
 - We optimize algorithms to be efficient and fast, we're aiming for these smaller bi-O notations
 	- `O(1)` > `O(n)`> `O(n^2)`
+	- ![[Pasted image 297.png]]

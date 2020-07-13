@@ -1,5 +1,5 @@
 # First-Order Logic
-### June 29, 2020 - lecture 4, August 1, 2020 - lecture 5
+### June 29, 2020 - lecture 4, July 1, 2020 - lecture 5
 
 - **First-Order Logic** deals with objects, not just true/false statements as in propositional logic.
 	- augments propositional logic with
