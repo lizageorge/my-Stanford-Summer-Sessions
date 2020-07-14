@@ -1,5 +1,5 @@
 # HTML and CSS
-###  July 6, 2020 - lecure 1, 2
+###  July 6, 13 2020 - lecure 1, 2, 4
 
 ## The basics of HTML
 - **tags** = are used to select certain blocks of text to apply certain properties to them
@@ -17,6 +17,11 @@
 		- ![[Pasted image 199.png]] (the top example is the XHTML standard)
 - **attributes** = some tags have additional information in them called attributes
 	- []`<a href = "http://www.stanford.edu"> To Stanford </a>`
+- HTML5 includes some new tags (header, footer, nav, etc.) that basically just act as divs, they just semantically hint to the reader of your code what the purpose of that elem is, and can also help things like readers and the google bot
+- there are also some new tags to easily add *audio and video*
+	- ![[Pasted image 397.png]]
+	- ![[Pasted image 398.png]]
+	- you can list muliple sources in case a browser doesn't support one of them
 
 ### the version we use
 - *XML* = extensible markup language, a standard of how different markup languages can be written (languages like svg, chemical markup language) so different tools can be used on new languages
@@ -25,19 +30,72 @@
 	- so now, when specifying doctype, just include "html"
 	- sometimes the two standards disagree...so just always check the specs
 
-- starting your build;
-	- ![[Pasted image 201.png]] the details you should include
-		- again, doctype is needed bc of browsers like edge still require the element, but you don't have to include a version number
-		- charset is needed incase you're dealing with more than just english characters. most of the time UTF-8 is enough
-		- title is the name of the tab displayed at top of browser
+### starting your build;
+- ![[Pasted image 201.png]] the details you should include
+	- again, doctype is needed bc of browsers like edge still require the element, but you don't have to include a version number
+	- charset is needed incase you're dealing with more than just english characters. most of the time UTF-8 is enough
+	- title is the name of the tab displayed at top of browser
 - **validator** = a tool we can use to check if html files pass the rules of newest standard
 	- you should do this in addition to testing on a variety of web browsers
 	- check any new features against caniuse.com
 
+### Forms
+- *the form element* - any way you accept input from the user. you can have more than one form per page, each should have seperated functionality.
+	- when you want to actually do stuff with the form inputs and send it to the web server, include the attributes
+		- `action` where you include the location to the program that can accept and do stuff with the input
+		- `method` where you specify if the info is sent through the get or post methods
+			- any http request can send information through the **get** or **post** methods. 
+				- get will submit info through the url (supposed to be *idem potent*, which means that it's not supposed to change anything on the state/server) (use when you want people to be able to bookmark/send the url and save inputted info)
+				- method will submit info through the request body (used when you want to actually change the state of the server or change if the state of the server changes )
+			- you'll also probably include the `id` attribute
+	- `<form action="", method="", id = ""></form>`
+- each form can have *form elements* (aka controls/widjets) of different types (text fields, radial buttons, mutli-select buttons, drop down menus)
+	- most use the `<input/>` tag and a `type` attribute
+		- common types with input
+			- `text` (you can now also have a `placeholder` attribute that displays some text in the field that disappears when the user starts typing, instead of just using `value` to have that placeholding value)
+			- `checkbox` 
+				- ![[Pasted image 385.png]]
+			- `radio`-  make sure the mutually exclussive choices that correspond to each other have the same name 
+				- ![[Pasted image 386.png]]
+			- `submit`/`reset`
+				- ![[Pasted image 387.png]]
+				- reset will change elems to their preset/default value. you can set that defualt value within each input elem ![[Pasted image 388.png]]
+				- submit will submit info to the server
+			- `button` (not the button tag - they both kinda do the same thing, but the button tag can have more formatting)
+			- there are more added in html5
+	- there are other tags too;
+		- `select` (for drop-down menus)
+			- ![[Pasted image 389.png]]
+		- `textare` (for multi-line inputs, you have to preset the size)
+			- ![[Pasted image 390.png]]
+	- all element tags include the `name` tag to identify the input elem when servers interact with their values
+	- for a long time, form elements had to be inside the form tag to work, now you can leave it outside (as long as it's just for client-side/local pages, doesn't actually access a server)
+- you can also include a `<label>` tag alongside every form element to include text, and if you click on that text on the page is highlights the corresponding input (the input elem is required to include an id for this)
+	- ![[Pasted image 384.png]]
+- look at the ski-form example for this lecture for a bunch of examples
+
+### Character Entities
+- basically when you insert something into a string that can show a symbol that is not supported by your character set, almost like an escape sequence ([] `&pound;, &euro;, &amp;, &nbsp;` (non-breaking space, use inbetween words that you want to be treated as one word and won't be broken up when the window is resized (`Stanford&nbsp;University` won't ever be on seperate lines)))
+- most of those first examples are set in UTF-8, but some things aren't
+### Image maps
+- when you take an image, and make it so that if a user clicks on certain parts of it, it is linked to a different page
+	- []![[Pasted image 391.png]] clicking on each room would take you to a different page
+- use the `map` elem to create a map of coordinates
+	- ![[Pasted image 392.png]]
+- and then just link that map to the image in your page
+### iFrames
+- including outside webpages into your page with the `<iFrame>` tag
+- ![[Pasted image 399.png]]
+- specify height and width in css
+### Meta Tags
+- when you work with other pages on yours
+- [] ![[Pasted image 400.png]] - will change the page after 7 seconds
+- []![[Pasted image 401.png]] - will refresh the page after 30 minutes
+
 
 ## CSS
 - CSS (cascading style sheets) is used to present information
-- some people believe that HTML should be used purely for semantic info and CSS should be used for presnetational info. So they use `<strong>` instead of bolding, and `<em>` instead of italicisizing. This makes it easier to update styling.
+- some people believe that HTML should be used purely for *semantic* info and CSS should be used for *presentational* info. So they use `<strong>` instead of bolding, and `<em>` instead of italicisizing. This makes it easier to update styling.
 
 
 - using CSS within an HTML file
@@ -103,7 +161,12 @@
 	- there are two provided for the class
 - Measuring scales
 	- you can use pixels, cms, inches, em's, and x's
-
+- tranformations
+	- you can take elements and skew or rotate them
+	- ![[Pasted image 394.png]]
+- animations
+	- you can have animations (that start without triggers) using just css
+	- ![[Pasted image 395.png]]
 
 ### versioning
 - the last official version of CSS was 2.1, version 3 has a whole bunch of extra properties that are in process of being approved
@@ -146,3 +209,18 @@
 - you can also convert your image to *base-64* (there are converters online) and use that on `src` so you don't have to load an external image file at all (better for smaller files, first visits)
 	- ![[Pasted image 257.png]]
 
+- SVG = scalable vector graphics
+	- and XML language that allows you to create and display vector graphics
+	- stick it into a page with the `svg` tag
+		- ![[Pasted image 396.png]]
+	- take up less space than pixelated images, and resizes nicely
+
+## Colours
+- **24-bit colour**, supportd by most modern computers, can be represented in red-green-blue numbers (0-255). Can make ~16.7 million different colours
+	- hdr can go from -1053 or smth
+- **alpha** = transparency/opacity setting of a colour of an element (0-255) 
+	- colour + transparency = **32-bit colour/RGBA**
+- defining colours
+	- there are ~214 predefined colours with string-value colours
+	- you can specify rbg values (`rgb(r, g, b)`) or rgba (`rgba(r, g, b, a`)
+	- or specify rgb values through hex values (`#rrggbb`- each pair of digits corresponds to 8 bits (left-most in the pair is the most significant digit), or one byte for one colour). This is most common on the web
