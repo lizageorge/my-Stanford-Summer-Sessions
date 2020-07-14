@@ -1,7 +1,6 @@
 # Layouts
-### July 8, 2020, lecture 3
+### July 8, 2020, lecture 3 + [CSS Grids Tutorial](https://www.youtube.com/watch?v=HgwCeNVPlo0)
 
-(skimming!)
 
 ### Fixed Layout vs. Liquid Layout
 - Liquid = the elems will expand out to take whole space available (p rare, only used for banners and stuff like that)
@@ -74,6 +73,35 @@
 - benefits of grid
 	- very similar to table-based layout, but the styling is in the css styling, not in semantic html. so it can be dynamic/responsive!	
 
+### How to use CSS Grids [tutorial](https://www.youtube.com/watch?v=HgwCeNVPlo0)
+- float-based layouts limits how much you can change the page on different sizes (for example, you can't reorder elements when moving to mobile)
+- setup
+	- use one all-encompasing grid to use as a *container*. then in your styling, set this element to have `display: none;`
+	- in that same styling block, use `grid-template-columns` to set a template. List column specifications to create a template. the elements inside the container will fill out these columns (left-to-right, top-to-bottom) 
+		- ![[Pasted image 412.png]]
+		- `fr` is a new sizing tool, and evenly divides the available space (if anyone one portion requires more space vertically, then the other elems would resize to fit that as well) . you can also specify variable sizes with percentages, or specific values (with pixels)
+		- listing `auto` will have one column that's just wide enough for the content inside to fit
+	- you can also modify how each element fits into the grid within that element's own style tag
+		- you can specify how many "lines"(or columns) the element should span to and from. all of these methods do the same thing:
+			- ![[Pasted image 413.png]]
+			- ![[Pasted image 414.png]]
+			- [[Pasted image 415.png]]
+		- similarily, you can edit how many rows the element spans across
+			- ![[Pasted image 416.png]]
+		- you can also edit how much of the available slot space it takes up 
+			- using `justify: start/end/center` so it only takes enough space to fit its content, but in the right position horizontally (replace justify with `align` for positioning vertically)
+				- ![[Pasted image 420.png]]![[Pasted image 422.png]]
+	- alternatively, you can use `grid-template-areas` to kind of fill in a table of rows and columns with the elements manually 
+		- ![[Pasted image 417.png]]
+		- if you leave a space as just `.`, then there would just be whitespace filling that slot ![[Pasted image 419.png]]
+		- if you use `grid-gap` in your areas definition, then all of your elements will be spaced out vertically accordingly
+			- ![[Pasted image 424.png]] ![[Pasted image 425.png]]
+		- using this, you can *reorder* elements without once changing your html file
+			- ![[Pasted image 418.png]]
+	- you can also nest grids within elements in an outer grid
+- mobile responsivenss
+	- just use media queries in you style sheet to set up new templates depending on the display size
+		- ![[Pasted image 423.png]] now this will only display for anything bigger than mobile
 
 ### CSS Positioning
 - used for very specific uses, not for general webpage layout

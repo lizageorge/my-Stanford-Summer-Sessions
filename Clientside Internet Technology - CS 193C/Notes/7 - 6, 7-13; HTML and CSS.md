@@ -70,7 +70,7 @@
 			- ![[Pasted image 390.png]]
 	- all element tags include the `name` tag to identify the input elem when servers interact with their values
 	- for a long time, form elements had to be inside the form tag to work, now you can leave it outside (as long as it's just for client-side/local pages, doesn't actually access a server)
-- you can also include a `<label>` tag alongside every form element to include text, and if you click on that text on the page is highlights the corresponding input (the input elem is required to include an id for this)
+- you can also include a `<label>` tag alongside every form element to include text, and if you click on that text on the page is highlights the corresponding input (the input elem is required to include an `id` for this)
 	- ![[Pasted image 384.png]]
 - look at the ski-form example for this lecture for a bunch of examples
 

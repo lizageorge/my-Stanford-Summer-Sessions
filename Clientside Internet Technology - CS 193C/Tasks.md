@@ -2,24 +2,32 @@
 
 ### Color: Green
 
-### Assign 1
-- personal
-	- [ ] (opt) make personal webpage text nicer
-	- [ ] (opt) personal.css - add border and adding to img
-	- [ ] double check font is changed the way they do in lecture (#2?)
-- blog styling!
-	- [ ] check lecture example, make sure yours looks "better"
-	- [ ] ![[Pasted image 302.png]]
-	- [ ] maybe use a reset?
-- [ ] learn layout...
-- connection
-	- [ ] can i use like bold or emph in html? or is that crossing semantic/style?
-	- [ ] fix the widths within main-content (bio should be wider, updates should fill space - flex? grid? or can i fill it our with float?)
-	- [ ] add form
-- performing arts
-	- [ ] learn responsive layout...
-- everything
-	- [ ] check against validators
-	- [ ] (opt) check against firefox and ie
+### Assign 2
+- [ ] car options
+	- [x] learn to use grids
+	- [x] layout
+	- [x] radio for config
+	- [x] radio for factory
+	- [x] checkbox for dealer
+	- [ ] sum
+	- [ ] choose a color
+		- [ ] figure out how to remove the scrollbar
+	- [ ] (extra) turn the sum into price format (toLocaleString?)
+- [ ] bookland
+	- [ ] create array of book objects with given data in the js file
+	- [ ] layout
+	- [ ] find book and clear info buttons
+	- [ ] search + display book info
+	- [ ] "book not found" error message
+	- [ ] [?] how do i display mutliple books (title + author + description) in the text area??
+	- [ ] change how form elements are displayed if you put in info
+- [ ] arrow functions
+	- [ ] fill-in
+	- [ ] graduate
+		- [ ] granddoctorare
+		- [ ] graduateEveryone
 
-- [ ] change to vs instead of vs code..
+
+- preferences
+	- [ ] figure out html-css autocomplete T^T
+	- [ ] set to xml-standard html (rn vs code allows me to do like `<input>` instead of requiring `<input/>`)
