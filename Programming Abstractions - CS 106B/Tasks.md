@@ -3,11 +3,14 @@
 - content confusions:
 	- [ ] check the difference bween pass-by-value and pass-by-reference (in c++ and java)
 	- [ ] trip said " O(log(n)) is the fastest possible runtime for search algorithms. Why is that?"
+	- [ ] i asked this during lecture but honestly didn't get it...why does using a forloop to iterate through the index instead of passing it through the method allow for identical possibilities to be searched?
 - optional practice;
 	- [ ] section 3 practice
 	- [ ] section 2 assignments...Twice bonus
 		- [ ] (diagnostic next week will have problems similar to section problems)
+	- [ ] knapsack problem, but return the actual combination of items, not total possible value
 	- [ ] generalized tower of hanoi method from lecture 6 (on ed) (code in sublime)
+
  
 ### Color: Purple
 
@@ -16,8 +19,8 @@
 - [ ] do function header comments have to follow a certain format, like standard function headers in java?
 - [ ] weird 'not accessible' thing in debugger, can't see any sets ![[Pasted image 264.png]], ![[Pasted image 265.png]]
 - [ ] ASSIGN 3
-	- [ ] is the "limit" of stacks before quiting (Question 9, Question2) of 10000 stacks unique to QT or is that what my PC would have done too? is the behavior of quitting after a certain number unique to QT or would my PC do it too?
-	- [ ] just help on question 9
+	- [ ] is the behavior of quitting after a certain number of stack frames (stackoverflow with the "unexpectedly finished" message or whatever) unique to QT or would my PC do it too?
+	- [ ] help on question 14
 
 	
 ##  Per Assingment - Assign 3
@@ -40,11 +43,13 @@
 		- [x] multiMerge time operation question
 		- [ ] recMultiMerge
 			- [ ] time operation question
-	- [ ] functio headers
+			- [ ] stack size question
+	- [ ] function headers
 - [ ] Part 2 - Recursive Backtracking
 	- [ ] warmup
 	- [ ] boggle
 	- [ ] (extra - voting)
+	- [ ] function headers
 - [ ] file headers
 
 

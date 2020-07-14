@@ -19,7 +19,10 @@
 		- (from guide to negations) ![[Pasted image 238.png]]
 		- (from notes 6/29) ![[Pasted image 239.png]]
 
-
+- Pset 3
+	- [ ] check that number three proof doesn't make the same mistake as in checkpoint problem
+	- [ ] add definitions to notes
+		- [ ] equality from problem four
 
 
 ## To ask

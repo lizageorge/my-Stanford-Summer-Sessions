@@ -1,5 +1,5 @@
 # Recursive Backtracking
-### July 8-13, 2020 - day 10-12
+### July 8-14, 2020 - day 10-13
 
 - **Recursive Backtracking** - make a choice on solving a solution, explore that choice, and then going back and making another choice (*choose-explore-choose*)
 	- [] making coin flip combinations - *generatring permutations*
@@ -58,6 +58,33 @@
 - base case = reached exit...yeah no revisit lecture
 - [ ] compare BFS and DFS ![[Pasted image 383.png]]
 
+
+### Recursively generating combinations
+- combinations have fixed sizes and picks from larger sets of options. So they're like all subsets of size 
+- each decision in the decision tree would still be to include or exclude a specific justice
+- ![[Pasted image 402.png]]
+- [] Making combinations of 5 justices out of nine chief justices
+	- make a helper function to generate combinations
+	- the base cases are maxing out the number spots available AND running out of elems to pick from while you still have open slots (that last case is because the recursvie call for "exclude" doesn't change k)
+	- ![[Pasted image 403.png]]
+	- ![[Pasted image 405.png]]
+	- ![[Pasted image 404.png]]
+
+### Recursion with Optimization problems
+- there is a set of problems called **NP-hard** problems that simply don't have a simple/efficient solution (they usually involve generating permutations or all possible solutions), and require recursive solutions
+-  [] the Knapsack Problem
+	- imagine having to put together a survival knapsack, where every element has a survival value and a weight. you need to generate a combination of elems that maximizes value while staying under a weight limit
+	- you can't just use a greedy approach that picks the item with the highest value that will fit, because there might be combinations of smaller-value items that sum up to a greater total value and still fit
+	- the recursive approach is to generate all possible combinations of items that fit and pick the one with best total value
+		- we'll just keep track of the biggest value possible (not the actual subset/combination that yielded that combo)
+		- very similar to the generating subsets example with S.C. judges, but here the restricting factor is the total weight (not the number of items added) 
+		- recursive case; choosing whether to include or exclude an item, calculate values, and *return the larger one*
+		- base case; stop when you run out of capacity or if you run out items to choose from
+		- we don't need an unchoose step bc there's not ADT we're modifying
+	- ![[Pasted image 406.png]]
+	- ![[Pasted image 408.png]]
+	- [ ] i asked this during lecture but honestly didn't get it...why does using a forloop to iterate through the index instead of passing it through the method allow for identical possibilities to be searched?
+	
 ## Key Takeaways from all of these Backtracking examples
 - Backtracking works outwards, from empty values towards the final values, think of an upside down tree where the leaves are the base cases and are also where the final answers are
 - the backtracking decision tree works on a "choose-explore-unchoose pattern" (down and then back up, move over down and then back up...)
@@ -65,5 +92,12 @@
 - backtracking trees can have variable decisions available at each level (the number of decisions can change or change in number)
 	- as we go, we need some way to keep track of what decisions have already been made and what haven't / what options have been used up and what are still available
 - use of helper recursive functions that reduce the number of params in the main-function call is common
-- when working with large ADTs and passing by reference, be sure to *undo* any changes made to the ADT within the method ("choose-explore-undo")
+- when generating subsets, each decision will be whether to include or exclude a certain element in the set being built up. The difference with combinations is that the size of the "subset" is restricted
+- when working with large ADTs and passing by reference (it's not really an option to not pass by reference), be sure to *undo* any changes made to the ADT within the method ("choose-explore-undo")
 	- when generating subsets, maximize efficiency by keeping track of the index of the element currently under consider for include/excluding instead of just removing and re-inserting that element every time
+- optimization problems are just like other backtracking problems where we generate combinations, but with the added layer of checking for the best-solution-so-far as we go and only returning the best one
+- USES FOR RECURSIVE BACKTRACKING
+	- generating permutations (order matters)
+	- generating subsets (order doesn't matter)
+		- generating combinations (retricted size)
+		- optimization problems (only return best-answers-so-far)
