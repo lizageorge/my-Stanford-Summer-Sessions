@@ -16,25 +16,14 @@
     "type": "split",
     "children": [
       {
-        "id": "3c60bec595c3f9a2",
+        "id": "22fb75c57d9894a8",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Clientside Internet Technology - CS 193C/Tasks.md",
-            "mode": "preview"
-          }
-        }
-      },
-      {
-        "id": "22fb75c57d9894a8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Clientside Internet Technology - CS 193C/Notes/7 - 6, 7-13; HTML and CSS.md",
-            "mode": "preview"
+            "file": "Programming Abstractions - CS 106B/Tasks.md",
+            "mode": "source"
           }
         }
       }
@@ -95,11 +84,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Programming Abstractions - CS 106B/Tasks.md",
+    "Clientside Internet Technology - CS 193C/Notes/7 - 06, 7-13; HTML and CSS.md",
+    "Clientside Internet Technology - CS 193C/Notes/7-14 Intro to Javascript!.md",
     "Clientside Internet Technology - CS 193C/Tasks.md",
-    "Clientside Internet Technology - CS 193C/Notes/7 - 6, 7-13; HTML and CSS.md",
-    "Clientside Internet Technology - CS 193C/Notes/7-8, 7-14; Layouts.md",
-    "Clientside Internet Technology - CS 193C/Notes/Untitled.md",
-    "Clientside Internet Technology - CS 193C/Notes/7-8; Layouts.md"
+    "Clientside Internet Technology - CS 193C/Notes/6-23; Intro to Web Programming.md"
   ],
   "promptDelete": false,
   "attachmentFolderPath": "Attachments",

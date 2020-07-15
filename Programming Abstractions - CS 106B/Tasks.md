@@ -4,6 +4,7 @@
 	- [ ] check the difference bween pass-by-value and pass-by-reference (in c++ and java)
 	- [ ] trip said " O(log(n)) is the fastest possible runtime for search algorithms. Why is that?"
 	- [ ] i asked this during lecture but honestly didn't get it...why does using a forloop to iterate through the index instead of passing it through the method allow for identical possibilities to be searched?
+	- [ ] why does countZeroSumSubsets from asisgn3 part 2 warmup work??
 - optional practice;
 	- [ ] section 3 practice
 	- [ ] section 2 assignments...Twice bonus
@@ -47,7 +48,16 @@
 	- [ ] function headers
 - [ ] Part 2 - Recursive Backtracking
 	- [ ] warmup
+		- [ ] towersOfHanoi
+		- [ ] step over
 	- [ ] boggle
+		- [x] points
+			- [x] more tests...
+		- [x] generateNeighbors
+		- [x] exploreBoggle
+		- [x] scoreBoard
+			- [ ] more tests?
+		- [ ] extra - use hasmaps instead of map
 	- [ ] (extra - voting)
 	- [ ] function headers
 - [ ] file headers
@@ -56,6 +66,7 @@
 
 ## Prep for Midterm
 - [ ] look at midterm page
+- [ ] practice!
 - [ ] download bluebook
 
 
