@@ -1,6 +1,8 @@
 # Tasks for Clientside Internet Technology
 
 ### Color: Green
+- [ ] history of js, lecture 5
+
 
 ### Assign 2
 - [ ] car options
