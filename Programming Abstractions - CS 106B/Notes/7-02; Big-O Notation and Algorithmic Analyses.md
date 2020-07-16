@@ -26,3 +26,17 @@
 - We optimize algorithms to be efficient and fast, we're aiming for these smaller bi-O notations
 	- `O(1)` > `O(n)`> `O(n^2)`
 	- ![[Pasted image 297.png]]
+
+- **The Analysis Process**
+	- count up the number of operations that vary based on the input n
+		- strip away any constant functions
+		- look at the biggest process
+- **Analysis of Recursive Programs**
+	- think about the number of calls each frame needs
+	- then think about how many times the function is called/how many stack frams are needed
+		- most functions would produce a tree! ![[Pasted image 461.png]] (it helps to draw out the tree)
+		- this would produce an exponential pattern per row, and all the rows need to be added up
+	- so the total runtime would be `(total number of recursive calls)(runtime of a single call)`. If most of the additives in that sum are constants and there's one dominating addiditive, that's the only one you care about ([] (2 + 4 + 8 + 16....+ s^n ) --> n^n)
+		- ![[Pasted image 462.png]] 
+	- log(n) is one of the fastest possible
+		- ![[Pasted image 463.png]] log of n is when you have repeated *division* in the recursive call instead of repeated *subtraction*

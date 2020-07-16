@@ -38,6 +38,11 @@
 	- recursive case; (...else) if the first and last char is the same.
 - ![[Pasted image 213.png]]
 
+
+### Strategy for solving recursive problems
+- 1. look for a self-similar pattern
+- 2. determing a base case (the simplest/ending case) and the recursive case (brings you one step closer to the base case)
+
 ## Visually representing recursion
 - **Self-similarity** = an object is self-similar when it contains the pattern of itself
 	- []![[Pasted image 214.png]]
@@ -127,16 +132,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-- 
 
 
 

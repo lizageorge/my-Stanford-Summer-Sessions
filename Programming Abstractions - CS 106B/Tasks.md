@@ -2,7 +2,6 @@
 
 - content confusions:
 	- [ ] check the difference bween pass-by-value and pass-by-reference (in c++ and java)
-	- [ ] trip said " O(log(n)) is the fastest possible runtime for search algorithms. Why is that?"
 	- [ ] i asked this during lecture but honestly didn't get it...why does using a forloop to iterate through the index instead of passing it through the method allow for identical possibilities to be searched?
 	- [ ] why does countZeroSumSubsets from asisgn3 part 2 warmup work??
 - optional practice;
@@ -30,12 +29,11 @@
 - [ ] Part 1 - Fund Recursion
 	- [x] warmup
 		- [ ] is there a reason we didn't use the provided c++ pow function?
-	- [ ] balanced operators
+	- [x] balanced operators
 		- [x] operatorsOnly
 			- [ ] more test cases?
 		- [x] checkOperators
-			- [ ] can i please use a stack and for loop? (not so pressing anymore)
-	- [ ] sierpinski fractal
+	- [x] sierpinski fractal
 		- [ ] (extra:) more self-similar image algorithms
 	- [ ] merging sorted sequences
 		- [x] merge

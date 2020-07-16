@@ -101,3 +101,5 @@
 	- generating subsets (order doesn't matter)
 		- generating combinations (retricted size)
 		- optimization problems (only return best-answers-so-far)
+- **Backtracking strategies:**
+	- ![[Pasted image 454.png]]

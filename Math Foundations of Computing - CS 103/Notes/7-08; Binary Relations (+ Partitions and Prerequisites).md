@@ -1,5 +1,5 @@
 # Binary Relations
-### July 8 - 10, 2020 - lecture 7-8
+### July 8 - 10, 2020 - lecture 6-7
 
 - recap of the day (lecture 7);
 	- ![[Pasted image 291.png]]

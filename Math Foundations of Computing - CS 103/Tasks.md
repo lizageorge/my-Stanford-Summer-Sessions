@@ -3,7 +3,7 @@
 
 - [ ] Finish going through proofwriting checklist
 - [ ] go over end of friday's lecture
-
+- [ ] go over 7/15 lecture second have
 
 - [ ] read guide to FOL Translations
 - [ ] try latex on obsidian?
@@ -25,4 +25,7 @@
 		- [ ] equality from problem four
 
 
-## To ask
+### Midterm
+- [ ] check announcement post on campuswire (up by weekend?)
+- [ ] practice midterm
+- problems are like hw problems
