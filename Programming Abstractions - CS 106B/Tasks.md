@@ -35,26 +35,26 @@
 		- [x] checkOperators
 	- [x] sierpinski fractal
 		- [ ] (extra:) more self-similar image algorithms
-	- [ ] merging sorted sequences
+	- [x] merging sorted sequences
 		- [x] merge
 			- [ ] (extra) figure out how to error catch non-sorted lists as you go
 			- [x] time operation question
 		- [x] multiMerge time operation question
-		- [ ] recMultiMerge
-			- [ ] time operation question
-			- [ ] stack size question
-	- [ ] function headers
+		- [x] recMultiMerge
+			- [x] time operation question
+			- [x] stack size question
+	- [x] function headers
 - [ ] Part 2 - Recursive Backtracking
-	- [ ] warmup
-		- [ ] towersOfHanoi
-		- [ ] step over
+	- [x] warmup
+		- [x] towersOfHanoi
+		- [x] step over
 	- [ ] boggle
 		- [x] points
 			- [x] more tests...
 		- [x] generateNeighbors
 		- [x] exploreBoggle
 		- [x] scoreBoard
-			- [ ] more tests?
+			- [ ] more tests? just for shits an giggles, sixteen word (use generator...?)
 		- [ ] extra - use hasmaps instead of map
 	- [ ] (extra - voting)
 	- [ ] function headers

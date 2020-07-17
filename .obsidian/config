@@ -16,13 +16,13 @@
     "type": "split",
     "children": [
       {
-        "id": "22fb75c57d9894a8",
+        "id": "735ae8a67570440d",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Clientside Internet Technology - CS 193C/Notes/7-14; Intro to Javascript!.md",
+            "file": "Math Foundations of Computing - CS 103/Notes/All Proof-writing Feedback.md",
             "mode": "source"
           }
         }
@@ -84,11 +84,11 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Clientside Internet Technology - CS 193C/Notes/7-14; Intro to Javascript!.md",
-    "Clientside Internet Technology - CS 193C/Tasks.md",
+    "Math Foundations of Computing - CS 103/Notes/All Proof-writing Feedback.md",
     "Math Foundations of Computing - CS 103/Tasks.md",
-    "Math Foundations of Computing - CS 103/Notes/7-08; Binary Relations (+ Partitions and Prerequisites).md",
-    "Math Foundations of Computing - CS 103/Notes/6-22; Intro to Sets.md"
+    "Math Foundations of Computing - CS 103/Notes/7-13; Functions.md",
+    "Programming Abstractions - CS 106B/Tasks.md",
+    "Programming Abstractions - CS 106B/Notes/7-16; Dynamic Memory Allocation.md"
   ],
   "promptDelete": false,
   "attachmentFolderPath": "Attachments",

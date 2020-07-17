@@ -11,5 +11,6 @@
 		- when giving examples of sets, give example values to the sets
 		- use integers instead of letters for specific examples
 - You should specify what is is that you are trying to prove and what you are assuming. The first sentence of a proof is ideally something like "We will prove..."
+- you should always state exactly what your *assuming* in a proof - usually the antecedent of an implication, etc.
 
 ## Readability, Style

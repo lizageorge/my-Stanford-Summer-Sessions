@@ -75,6 +75,7 @@ ok im skipping this for now, i'll come to it later
 - you can link an external js file into your HTML file using the `script` tag too
 	- ![[Pasted image 473.png]]
 	- `defer` tells the browser to only start executing the js once the entire page has loaded
+	- make sure your script tag is still at the end of the body tag!
 
 ### The Document Object Model
 - = the interactions between the browser and js 
