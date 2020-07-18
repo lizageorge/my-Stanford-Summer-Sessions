@@ -14,10 +14,11 @@
 		- ![[Pasted image 301.png]]
 		
 - **When to use Recursive Backtracking**
-	- to generate all possible solutions - *generatring permutations*
-		- --> find best possible solution
-		- --> determine if a certain solution exists
-	- you can also generate all possible subsets of a given set
+	- to generate all possible solutions 	
+		- generatring permutations
+		- generate all possible subsets of a given set
+- --> find best possible solution
+- --> determine if a certain solution exists
 
 ### Generating Permutations
 - [] Unscrambling words - *generatring permutations*

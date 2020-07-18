@@ -1,0 +1,81 @@
+{
+  "main": {
+    "id": "1f045b11465d619d",
+    "type": "split",
+    "children": [
+      {
+        "id": "735ae8a67570440d",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Math Foundations of Computing - CS 103/Notes/7-17; Induction.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "00d871915118273c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b11815d4906df435",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2747facaf7c5bb7a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a69c9b08d8cddcce",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b905a67981d9ed0b",
+    "type": "split",
+    "children": [
+      {
+        "id": "7984bf0845e92b2b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "721b053f0f0ab262",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Math Foundations of Computing - CS 103/Notes/Untitled.md",
+    "Programming Abstractions - CS 106B/Notes/7-08 - 7-14; Recursive Backtracking.md",
+    "Math Foundations of Computing - CS 103/Tasks.md",
+    "Math Foundations of Computing - CS 103/Notes/All Proof-writing Feedback.md",
+    "Math Foundations of Computing - CS 103/Notes/7-13; Functions.md"
+  ]
+}
