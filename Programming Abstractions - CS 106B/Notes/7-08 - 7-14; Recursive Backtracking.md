@@ -104,3 +104,11 @@
 		- optimization problems (only return best-answers-so-far)
 - **Backtracking strategies:**
 	- ![[Pasted image 454.png]]
+- **The basic bactracking idea**
+	```
+	If you are already at the solution, report success (base case)
+	for(every possible choice in the current position){
+		Make that choice(take one step along path) and solve problem from this position (recursive call)
+		If a cummulative answer, add up result of that recursive call
+		Back out of the current choice (take one step back) and reset the state to the beginning of loop (unchoose) 
+	}

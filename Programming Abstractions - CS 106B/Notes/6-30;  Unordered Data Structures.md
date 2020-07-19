@@ -8,6 +8,10 @@
 	- set operations can be used on these adts;
 		- equality ( `==` or `!=`)
 		- union (`s1 += s2`), intersection (`s1*=s2`), difference (`s1 -= s2`, order matters)
+- ** sets technically store their values in ascending order/alphabetically (not the order you add them in)
+	- so the add method has a runtime of O(log n)
+	- if you were to iterate through the values in a set, they would come out in conventional order
+
 
 ## Map
 - = a collection of **key-value** pairs. You can actually use the key to access specific values.

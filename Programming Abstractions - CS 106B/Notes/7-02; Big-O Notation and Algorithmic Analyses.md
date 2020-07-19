@@ -27,10 +27,12 @@
 	- `O(1)` > `O(n)`> `O(n^2)`
 	- ![[Pasted image 297.png]]
 
-- **The Analysis Process**
-	- count up the number of operations that vary based on the input n
-		- strip away any constant functions
-		- look at the biggest process
+### The Analysis Process
+- count up the number of operations that vary based on the input n
+	- strip away any constant functions
+	- look at the biggest process
+	- for helper functions like those of provided ADTs, be sure to check their Big-Oh in the documentation! If, for example, inserting an element `n` into a set actually takes `O(log n)`
+	- if you have multiple growth factors/rates (suppose one for loop that loops `n` times and adding an element to a set) the Big-Oh will include both (`O(n logn)`). However, you still don't count multiple repeats (suppose there were two for loops in the previous example, it would still be (`O(n logn)`)
 - **Analysis of Recursive Programs**
 	- think about the number of calls each frame needs
 	- then think about how many times the function is called/how many stack frams are needed
@@ -38,5 +40,12 @@
 		- this would produce an exponential pattern per row, and all the rows need to be added up
 	- so the total runtime would be `(total number of recursive calls)(runtime of a single call)`. If most of the additives in that sum are constants and there's one dominating addiditive, that's the only one you care about ([] (2 + 4 + 8 + 16....+ s^n ) --> n^n)
 		- ![[Pasted image 462.png]] 
-	- log(n) is one of the fastest possible
+	- ** log(n) is one of the fastest possible
 		- ![[Pasted image 463.png]] log of n is when you have repeated *division* in the recursive call instead of repeated *subtraction*
+	- ** don't mix up n^2 (quadtratic) with 2^n(exponential, like when you have a binary tree)!
+- **Observing provided runtimes**
+	- if you're given a table on input sizes and runtimes and you're asked to identify its Big-Oh, don't just look at the differences between the rows. Look at the *rate of change of the differences*
+		- are the changes increasing with input size? (exponential)
+		- are the changes decreasing with input size? (logarithmic)
+		- are they staying about the same/not following either pattern? (linear)
+- sometimes, analyisis of "auxillary storagge space" is asked for - again, just see how the number of variables declared changes based on input size

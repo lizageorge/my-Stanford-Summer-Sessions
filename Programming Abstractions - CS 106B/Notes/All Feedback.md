@@ -1,5 +1,6 @@
 # All Feedback
 
+## Assignments
 ### Functionality
 - function decomposition
 	- *functions shouldn't have an extended functionality. Make sure that anything too long is plit up among different functions* (||)
@@ -31,3 +32,12 @@
 - Assign1 (Functionality: +, Style: ✓+)
 - Assign2 (Functionality: ✓+, Style: ✓+)
 
+
+## Assessments
+### Practice Exams
+- Mid Quarter Practice Diagnostic = 33(+-3)/45
+	- timing on the code review + algorithmic analysis + tracing problems was rough...should be more confident/swift next time, come back to the problem with extra time
+	- don't forget function order! everytime you add a helper, just be sure to add a prototype at the top
+	- be sure to always trace your program very thoroughly/like you don't know what the expected result should be after writing!
+	- make sure you thoroughly understand what the question is asking for. What *exactly* are you supposed to return/output (it'll help to store this in a var with an appropriate name(instead of result)), and how does the rest of your code relate to that (count the number of paths, not the number of movements in all the paths)
+	- difficult EC backtracking problem - there was honestly a much simpler and easier way of doing it, but this is what i reached even after following every problem solving/decomposition strategy. so ig it's just a matter of practicing that intuition

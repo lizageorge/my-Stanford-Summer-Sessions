@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Math Foundations of Computing - CS 103/Notes/7-17; Induction.md",
-            "mode": "preview"
+            "file": "Programming Abstractions - CS 106B/Tasks.md",
+            "mode": "source"
           }
         }
       }
@@ -72,10 +72,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Math Foundations of Computing - CS 103/Notes/Untitled.md",
-    "Programming Abstractions - CS 106B/Notes/7-08 - 7-14; Recursive Backtracking.md",
-    "Math Foundations of Computing - CS 103/Tasks.md",
-    "Math Foundations of Computing - CS 103/Notes/All Proof-writing Feedback.md",
-    "Math Foundations of Computing - CS 103/Notes/7-13; Functions.md"
+    "Programming Abstractions - CS 106B/Tasks.md",
+    "Programming Abstractions - CS 106B/Notes/6-30;  Unordered Data Structures.md",
+    "Programming Abstractions - CS 106B/Notes/All Feedback.md",
+    "Programming Abstractions - CS 106B/Notes/7-02; Big-O Notation and Algorithmic Analyses.md",
+    "Programming Abstractions - CS 106B/Notes/7-01; Using ADTs- Breadth-First Search.md"
   ]
 }
