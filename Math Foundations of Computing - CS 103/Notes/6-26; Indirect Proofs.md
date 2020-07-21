@@ -11,6 +11,7 @@ if n is even, then n^2 is even)
 	- implications are *directional* - the proof direction doesn't go both ways ("If there's a rainbow, it has rained somewhere" /= "If it has rained, there has to be a rainbow") and doesn't imply cuasality () "rainbows cause rain")
 	- `For any x, if P(x) is true, then Q(x) is also true`
 	- ![[Pasted image 43.png]] Q(x) can be true elsewhere, P(x) can be untrue
+	- To prove an implication, you assume the antecedent and prove the consequent ("let's assume [antecedent], we will show that [conseqent]...")
 	
 - **propositions** = logical statements that is either true of false
 	- statements we've proved can be true propositions
@@ -45,7 +46,7 @@ if n is even, then n^2 is even)
 - **Proof by Constrapositive**
 	- the **contrapositive** of an implication X *says the same information*, but reverses the precedent and antecedent
 		- ![[Pasted image 51.png]]
-		- [] The contrapositive of "If x is a puppy, then I love x" is "If x is not a puppy, I don't love x"
+		- [] The contrapositive of "If x is a puppy, then I love x" is "If I don't love x, x is not a puppy"
 		- [] The contrapositive of "If I store my cat food inside, then racoons won't get to it" is "If racoons got to my food, then I didn't store it inside"
 	- to prove *If P is true then Q is true*, I would prove *If Q is false, then P is false* if it is easier
 	- [] ![[Pasted image 54.png]]

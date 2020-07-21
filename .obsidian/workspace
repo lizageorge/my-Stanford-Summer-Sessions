@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "735ae8a67570440d",
+        "id": "d849bdbd7736158d",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Clientside Internet Technology - CS 193C/Notes/7-16; JS - Events.md",
+            "file": "Clientside Internet Technology - CS 193C/Notes/7-16; JS - Selecting Elements.md",
             "mode": "source"
           }
         }
@@ -72,10 +72,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Clientside Internet Technology - CS 193C/Notes/7-16; JS - Events.md",
+    "Clientside Internet Technology - CS 193C/Notes/7-16; JS - Selecting Elements.md",
     "Clientside Internet Technology - CS 193C/Notes/7-14; Intro to Javascript!.md",
-    "Programming Abstractions - CS 106B/Notes/7-02; Big-O Notation and Algorithmic Analyses.md",
-    "Programming Abstractions - CS 106B/Tasks.md",
-    "Programming Abstractions - CS 106B/Notes/7-20; Designing our own ADTs.md"
+    "Clientside Internet Technology - CS 193C/Notes/7-16; JS - Events.md",
+    "Math Foundations of Computing - CS 103/Notes/7-13; Functions.md",
+    "Math Foundations of Computing - CS 103/Notes/7-08; Binary Relations (+ Partitions and Prerequisites).md"
   ]
 }

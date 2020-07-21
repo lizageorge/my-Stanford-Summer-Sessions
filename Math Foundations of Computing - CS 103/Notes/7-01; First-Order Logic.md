@@ -12,7 +12,7 @@
 - **Predicates**; when working with Firth Order Logic, you'll be given a list of predicates to work with 
 	- [] ![[Pasted image 92.png]]
 	- binary predicates can be written in infix notation like ( "<")
-	- - **equality** applied to objects, can be a predicate, represented by a regular equal sign, not equals is the regular notequals symbol
+	- **equality** applied to *objects*, can be a predicate, represented by a regular equal sign, not equals is the regular notequals symbol
 		- [] `Tom Marvallo Riddle = Lord Voldermort`, `Lord Voldermort != Harry`
 		- for comparing predicates (propositions), you would still use the propositional equality symbol
 
@@ -40,8 +40,8 @@
 - **Translating Existential Statements ("there exists x such that...")**
 	- use **the existential quantifier** - backwards E
 		- []![[Pasted image 95.png]]
-		- ![[Pasted image 96.png]]
-	- The statements in the form `Ex. some-formula` is a proposition that is true when for some choice of x, the statement `some-formula` is true when that x is plugged in *your particular "world"*
+	- The statements in the form `Ex. some-formula` is a proposition that is true when for *some* choice of x, the statement `some-formula` is true when that x is plugged in *your particular "world"*
+		- [] $Ex.(Even(x) /\ Prime(x))$
 		- [] ![[Pasted image 99.png]] vs. ![[Pasted image 100.png]]
 	- The quantifier can be applied to implications (also propositions!), where the implication and antecent are the left and right sides of -->
 		- ![[Pasted image 98.png]]

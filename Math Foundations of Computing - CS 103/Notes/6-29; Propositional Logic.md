@@ -12,10 +12,9 @@
 	- **propositional connectives** = operations 
 		- *logical negation* = basically !, represented by like a short horizontal bar with a hook on it `-`
 		- *logical conjunction* = basically &&, represented by a big carrot (`^`)
+		- *logical disjunction* = basically ||, represented by a v-like symbol (`v`)
 			- this is an *inclusive* or - so true if at least one variable is true
 			- an *eclusive* conjunction would require that only one variable is true. you can create a formula for this, like so; ![[Pasted image 64.png]]
-		- *logical disjunction* = basically ||, represented by a v-like symbol (`v`)
-
 
 - **truth tables** = represent all the possible combinations of two variables and the outputs when they're entered into a specific formula of propositional connectives
 	- [] ![[Pasted image 63.png]]
@@ -25,7 +24,7 @@
 	- those outputs have been defined as such;
 		- ![[Pasted image 66.png]]
 		- there are other definitions of implications, but in this class, it's *only* true when p is true and q is false
-		- those first two rows kinda represent vacuous truths (from 7/23)
+		- those first two rows kinda represent vacuous truths (from 6/23)
 		
 - These implications can also represent contrapositives;
 	- ![[Pasted image 67.png]]
@@ -58,8 +57,8 @@
 	- ![[Pasted image 74.png]]
 	- "Aang wont' defeat the firelord if he's not in the path of totality" = 
 		- `-a --> -b` 
-		- ` b --> a`
-		- remember, (if P, then Q) means Q--> P, not P--> Q
+		- ` !b --> !a`
+		- remember, "Q if P" means Q--> P, not P--> Q
 	- "If Aang will be in the path of totatlity, but plan doesn't go smoothly, aang won't defeat the firelord"
 		- ![[Pasted image 76.png]]
 		- ![[Pasted image 75.png]]
@@ -69,7 +68,7 @@
 
 
 ## Propositional Equivalence
-- ** deMorgan's Laws = factoring out negativity through ands' and or's 
+- **deMorgan's Laws** = factoring out negativity through ands' and or's 
 	- ![[Pasted image 78.png]]
 	- `!(p && q)` is equivalent to `!p || !q`
 	- `!(p || q)` is equivalent to `!p && !q`
@@ -83,10 +82,10 @@
 - ![[Pasted image 80.png]]
 - ![[Pasted image 81.png]]
 - ![[Pasted image 82.png]]
-- ![[Pasted image 83.png]]
 - `p --> q == !(p && !q) == !p || !!q==  !p || q` The equivalence is true because, in both cases, only if q is false is the statement false. 
 - `p ^ q == !(p -> !q)`
 - `p v q == !( !p ^ !q)`
+- (^ from pset 3)
 
 
 ## Why all this matters

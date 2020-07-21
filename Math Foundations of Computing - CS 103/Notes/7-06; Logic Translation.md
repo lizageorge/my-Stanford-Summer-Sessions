@@ -26,7 +26,7 @@
 	- --> ![[Pasted image 167.png]]
 	- again, because of the mount everest test, something like this wouldn't work;
 		- ![[Pasted image 165.png]] this implies that in a world where there weren't any people (say it's a world with just mount everest), the antecedent of the implication is false and so the *whole statement is vacously true*. So be very careful when defining *all* your variables in the implication of existential implications.
-- **the order of the quantifiers really matters! **
+- **the order of the quantifiers really matters!**
 	- [] there could be worlds where everyone loves someone else but no one is universally loved, or vise versa, or worlds where *both* implications are true and everyone loves someone else and someone is unversally loved
 - ![[Pasted image 168.png]] --> "For all choice of x, there's some choice of y where P(x, y) is true." (the choice of y can be different for every choice of x, and can also depend on x. like a nested for loop)
 - ![[Pasted image 169.png]] --> "There exists an x such that for some choice of y, P(x, y) is true" (there are a much more limited valid choices of x because the inner statement with all y must hold true)
@@ -50,7 +50,7 @@
 	- this passes the mt. everest test (whichever way you define s and t) because it ignores s if s is not a set (and same for t). this time, we *want* this statement to be vacously true even in a world with no sets, because it's just saying that set equality is when two sets have the same elements, not that two sets s and t are equal. 
 - Quantifiers on sets summary;
 	- ![[Pasted image 175.png]]	
-
+- ** you can also do stuff like translate $Ex(x \in S and x \in T)$ into $S \cap T != \{\}$
 
 
 ## Expressing Uniqueness
@@ -59,6 +59,7 @@
 	- --> ![[Pasted image 178.png]]
 	- there's a cleaner way, using the contrapositive; ![[Pasted image 179.png]]
 		- (contrapositive of not x implies not a way to find out is waytofindout implies x equals w)
+	- you can add more definitions and layers for describing multiple unique elements(pset2)
 - there is a seperate operator in maths to describe uniqueness, but we will not be using it in this class
 
 
@@ -76,8 +77,8 @@
 	- [] the negation of "there is an empty set"/"there is a set with no elements"
 		- ![[Pasted image 186.png]]
 - these statements are not negations of each other...
-	- ![[Pasted image 187.png]]
-	- remember to stick with the rule that for universal statements, you use --> instead of ^. Right now, this fails the mt. everest test. (also, it's preferable over the "or" operator too, even with deMorgan conversions, because that can get confusing)
+	- ![[Pasted image 187.png]] (vs. Every set contains something)
+	- remember to stick with the rule that for universal statements, you use -->, and for existentials you use  ^. Right now, this fails the mt. everest test. (also, it's preferable over the "or" operator too, even with deMorgan conversions, because that can get confusing)
 
 
 

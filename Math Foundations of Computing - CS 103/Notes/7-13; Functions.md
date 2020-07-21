@@ -39,7 +39,7 @@
 		- [] ![[Pasted image 363.png]]
 		- for disproofs, just use the existential negations of the above definitions (`Ea1 \in A. Ea2 \in A. (a1 != a2 /\ f(a1) = f(a2)` or `Ea1 \in A. Ea2 \in A. (f(a1) = f(a2) /\ a1 != a2`)
 			- [] ![[Pasted image 365.png]]
-		- compositions of injective functions and injectives:
+		- compositions of injective functions are injectives:
 			- [] `Theorem: if a funtion f:A-> B is an injection and g:B->C is an injection, then the function g*f:A-> c is an injection`
 			- ![[Pasted image 367.png]]
 			- it's best to also quantify A,B,C, they didn't bc of space

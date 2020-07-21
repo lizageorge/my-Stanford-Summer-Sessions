@@ -1,5 +1,5 @@
 # Intro to Javascript
-### July 14, 2020, lecture 5
+### July 14, 20, 2020, lecture 5, 6, 7
 
 ## The Javascript Programming Language
 
@@ -64,6 +64,8 @@ ok im skipping this for now, i'll come to it later
 	- you can declare *objects* very easily, like c++ structs. They're basically just key-value pairs
 		- ![[Pasted image 466.png]]
 		- aren't strictly defined, which can lead to accidents and errors; ![[Pasted image 467.png]]
+		
+## Some extra features of JS
 
 ### Arrow Functions
 - ![[Pasted image 506.png]](regular function) is equivalent to ![[Pasted image 507.png]](function literal)
@@ -80,6 +82,21 @@ ok im skipping this for now, i'll come to it later
 	- if you have just one return statement in the body, you can get rid of the curly braces and the return keyword
 	- ![[Pasted image 509.png]]
 
+### Destructuring
+- (examples from assign4 files)
+- destructuring = pulling out certain parts of a JS object to store in vars
+	- ![[Pasted image 553.png]] (the order of the elems in that var decleration doesn't matter)
+	- you can initialize these values in case the object can't return a value:
+		- ![[Pasted image 554.png]]
+	- if you want to store the values in a var with a different variable (so it doens't interfere with any vars you have of the same name):
+		- ![[Pasted image 555.png]]
+	- if you already had variable declaration, you can do this:
+		- ![[Pasted image 556.png]]
+- destructuring works on arrays too
+	- ![[Pasted image 557.png]]
+- destructuring can be useful when you want to return 'multiple' things in a function by returning an object and then destructuring that object
+- many early module-styles (incl node) that came out before ecmascript6 use this
+
 ### Dialogue options (from the Dialogue Object)
 - defaults from browsers:
 	- *alerts*
@@ -94,7 +111,6 @@ ok im skipping this for now, i'll come to it later
 ### History Object
 - if you want to change the navigation of a page (and not open new tabs) without needing new urls, you can use the history object
 - ![[Pasted image 548.png]]
-
 
 ## Javascript in the Web Browser
 
