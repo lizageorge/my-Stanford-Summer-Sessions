@@ -48,3 +48,5 @@
 - do this using the `delete[] {pointer}` operator. this will 'give back' or deallocate the array that was pointing to
 	- ![[Pasted image 492.png]]
 - the pointer will stick around as a *dangling* pointer, you'll get awful things if you try to read and write with it. but it will go out of scope like a regular variable
+- what's actually happening when we use `delete[]` is that the array in the heap still exists, the computer can descide to leave the values unchanged or clear them. We just no longer have access to it
+- this is why an array is "initialized" with random/garbage values, not the nice default values like 0 or an empty string 

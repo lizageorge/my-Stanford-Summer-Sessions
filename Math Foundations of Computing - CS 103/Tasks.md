@@ -2,8 +2,8 @@
 ### Color: Blue
 
 - [ ] Finish going through proofwriting checklist
-- [ ] go over end of friday's lecture
-- [ ] go over 7/15 lecture second have
+- [ ] go over 7/15 lecture second half (pigeonhole principle)
+- [ ] go over beginning over 7-17 lecture (induction)
 
 - [ ] read guide to FOL Translations
 - [ ] try latex on obsidian?
@@ -19,13 +19,8 @@
 		- (from guide to negations) ![[Pasted image 238.png]]
 		- (from notes 6/29) ![[Pasted image 239.png]]
 
-- Pset 3
-	- [ ] check that number three proof doesn't make the same mistake as in checkpoint problem
-	- [ ] add definitions to notes
-		- [ ] equality from problem four
-
-
 ### Midterm
 - [ ] check announcement post on campuswire (up by weekend?)
 - [ ] practice midterm
 - problems are like hw problems
+- Discrete Maths Recap: ![[Pasted image 535.png]]

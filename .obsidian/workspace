@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Programming Abstractions - CS 106B/Tasks.md",
+            "file": "Clientside Internet Technology - CS 193C/Notes/7-16; JS - Events.md",
             "mode": "source"
           }
         }
@@ -72,10 +72,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Programming Abstractions - CS 106B/Tasks.md",
-    "Programming Abstractions - CS 106B/Notes/6-30;  Unordered Data Structures.md",
-    "Programming Abstractions - CS 106B/Notes/All Feedback.md",
+    "Clientside Internet Technology - CS 193C/Notes/7-16; JS - Events.md",
+    "Clientside Internet Technology - CS 193C/Notes/7-14; Intro to Javascript!.md",
     "Programming Abstractions - CS 106B/Notes/7-02; Big-O Notation and Algorithmic Analyses.md",
-    "Programming Abstractions - CS 106B/Notes/7-01; Using ADTs- Breadth-First Search.md"
+    "Programming Abstractions - CS 106B/Tasks.md",
+    "Programming Abstractions - CS 106B/Notes/7-20; Designing our own ADTs.md"
   ]
 }

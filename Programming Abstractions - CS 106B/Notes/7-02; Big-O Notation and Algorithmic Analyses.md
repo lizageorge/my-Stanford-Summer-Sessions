@@ -32,6 +32,7 @@
 	- strip away any constant functions
 	- look at the biggest process
 	- for helper functions like those of provided ADTs, be sure to check their Big-Oh in the documentation! If, for example, inserting an element `n` into a set actually takes `O(log n)`
+		- ![[Pasted image 545.png]]
 	- if you have multiple growth factors/rates (suppose one for loop that loops `n` times and adding an element to a set) the Big-Oh will include both (`O(n logn)`). However, you still don't count multiple repeats (suppose there were two for loops in the previous example, it would still be (`O(n logn)`)
 - **Analysis of Recursive Programs**
 	- think about the number of calls each frame needs

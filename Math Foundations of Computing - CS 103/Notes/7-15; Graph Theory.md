@@ -51,6 +51,11 @@
 - **clique** is a graph with all possible edge
 	- (this is a 6-clique, ignore the colours)![[Pasted image 451.png]]
 
+- **trees** = a connected, non-empty (undirected)graph with no simple cycles, 
+	- There's only one node from any one node to another node
+	- **maximally acyclic** = adding any empty edge creates a simple cycle
+	- **minimally connected** = deleting any edge disconnect the graph
+
 ## Pigeonhole Principle
 - [ ]  missed some...pigeon hole principle...right after break
 - [ ]  ![[Pasted image 440.png]]

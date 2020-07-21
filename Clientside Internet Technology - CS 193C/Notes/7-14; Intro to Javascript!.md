@@ -30,6 +30,8 @@ ok im skipping this for now, i'll come to it later
 ### JS as a Language
 - Things about JS that suck
 	- there aren't any amazing debuggers, just browsers that weren't designed for development. Errors only show up in the console, 
+		- ** a note about debuggin on browsers; just like you should be testing your code on different major browsers, you also have to learn to debug on the different browsers
+		- ** you can help work with the debuggers by using `console.log`, `console.info`, and `console.debug` to show different information in the console (lecture 6). you can also use the script window to use the actual debugging tools
 	- Error are not always very clear, and could come from just about anywhere (HTML/CSS/JS)
 	- especially bc JS is very flexible	
 		- not typed language
@@ -63,6 +65,36 @@ ok im skipping this for now, i'll come to it later
 		- ![[Pasted image 466.png]]
 		- aren't strictly defined, which can lead to accidents and errors; ![[Pasted image 467.png]]
 
+### Arrow Functions
+- ![[Pasted image 506.png]](regular function) is equivalent to ![[Pasted image 507.png]](function literal)
+- arrow functions are useful bc they make certain functions very short and anonymous (like for event listeners where oftentimes a function is only needed once and is quite short) 
+	- don't use arrow functions for longer functions
+
+- arrow functions are written as 
+	``` var func = (par1, par2) => {
+		//function contents
+	}
+	```
+	- - ![[Pasted image 508.png]]
+	- if you just have one parameter, you can leave out the parentheses(but no params require `()`)
+	- if you have just one return statement in the body, you can get rid of the curly braces and the return keyword
+	- ![[Pasted image 509.png]]
+
+### Dialogue options (from the Dialogue Object)
+- defaults from browsers:
+	- *alerts*
+	- *confirms* (gives the buttons yes/no(safair) or ok/cancel)
+	- *prompt* (accepts text input)
+	- ![[Pasted image 546.png]]
+- professional websites would pop up a certain div for custom dialogue boxes
+### Location object
+- the `location` var can give you access to the `href` variable, which you can change to change the webpage being viewed
+- ![[Pasted image 547.png]]
+	- you can set the href value to an absolute or ___ reference
+### History Object
+- if you want to change the navigation of a page (and not open new tabs) without needing new urls, you can use the history object
+- ![[Pasted image 548.png]]
+
 
 ## Javascript in the Web Browser
 
@@ -74,14 +106,15 @@ ok im skipping this for now, i'll come to it later
 		- but this is how event listeners are made now; ![[Pasted image 470.png]] (notice that the script tag has to be written below the buton)
 - you can link an external js file into your HTML file using the `script` tag too
 	- ![[Pasted image 473.png]]
-	- `defer` tells the browser to only start executing the js once the entire page has loaded
-	- make sure your script tag is still at the end of the body tag!
+	- `defer` tells the browser to only start executing the js once the entire page has loaded. It also lets you add your script link tag in the header
+		- otherwise, make sure your script tag is still at the end of the body tag!
 
 ### The Document Object Model
 - = the interactions between the browser and js 
 - technically every single html element has a corresponding object that you can access from js. 
 	- this an example of the *tree* of the html elements; ![[Pasted image 472.png]]
 	- so if you want to access an element, you could do it by traversing this tree (but it's more common to use ids)
+- the `document` object is of `Document` class (same for console/Console, window/Window)
 - you access the DOM/tree using the `document.` object that's created everytime a webpage is loaded and contains an element for every HTML element
 	- `document.title` lets you access and change the document's title property
 	- `document.getElementById()` lets you access and change an element by its id
