@@ -51,7 +51,7 @@
 	- ![[Pasted image 571.png]] now the text displayed won't be this string, it will be treated as actual parsed HTML
 - to actually add a whole elem to the tree (the old version of edge's solution):...
 	- ![[Pasted image 572.png]]
-	- just check the assign4 / lec7 files
+	- just check the assign3 / lec7 files
 
 
 

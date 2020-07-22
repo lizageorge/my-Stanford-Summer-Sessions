@@ -10,7 +10,6 @@
 	- [ ] knapsack problem, but return the actual combination of items, not total possible value
 	- [ ] generalized tower of hanoi method from lecture 6 (on ed) (code in sublime)
 
- 
 
 
 
@@ -24,7 +23,10 @@
 
 ## Assign 4
 - [ ]  check the tests from the starter code of 7-20 lecture to see how to write tests for hw
+- [ ]  view yeah
 
 
+## Final Project
+- [ ] check guidelines + timeline
 
 
