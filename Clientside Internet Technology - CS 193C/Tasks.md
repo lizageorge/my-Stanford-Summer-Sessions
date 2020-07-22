@@ -13,10 +13,13 @@
 	- [x] layout (with set cards)
 	- [x] flipping to front on click
 	- [x] reset button
-	- [ ] flipping to back automatically, 1.5 sec
-	- [ ] stop other cards from being clicked while first card is face-up
-	- [ ] randomization
-	- [ ] matching + deletion
+	- [x] flipping to back automatically, 1.5 sec
+	- [x] stop other cards from being clicked while first card is face-up
+	- [x] randomization
+	- [x] matching + deletion
+- [ ] destructuring-word
+	- [ ] getData results
+	- [ ] getDorms results
 
 - turn in
 	

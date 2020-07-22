@@ -73,7 +73,8 @@ ok im skipping this for now, i'll come to it later
 	- don't use arrow functions for longer functions
 
 - arrow functions are written as 
-	``` var func = (par1, par2) => {
+	``` js
+	var func = (par1, par2) => {
 		//function contents
 	}
 	```

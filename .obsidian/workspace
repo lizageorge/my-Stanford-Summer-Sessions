@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Clientside Internet Technology - CS 193C/Tasks.md",
+            "file": "Clientside Internet Technology - CS 193C/Notes/7-14; Intro to Javascript!.md",
             "mode": "preview"
           }
         }
@@ -46,7 +46,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 417.00680351257324
   },
   "right": {
     "id": "b905a67981d9ed0b",
@@ -72,10 +72,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Clientside Internet Technology - CS 193C/Notes/7-14; Intro to Javascript!.md",
     "Clientside Internet Technology - CS 193C/Tasks.md",
-    "Clientside Internet Technology - CS 193C/Notes/7-16; JS - Selecting Elements.md",
-    "Math Foundations of Computing - CS 103/Notes/6-26; Indirect Proofs.md",
-    "Math Foundations of Computing - CS 103/Notes/6-22; Intro to Sets.md",
-    "Math Foundations of Computing - CS 103/Tasks.md"
+    "Programming Abstractions - CS 106B/Notes/7-20; Designing our own ADTs 1.md",
+    "Math Foundations of Computing - CS 103/Notes/7-22;  Finite Automata.md",
+    "Math Foundations of Computing - CS 103/Notes/All Proof-writing Feedback.md"
   ]
 }
