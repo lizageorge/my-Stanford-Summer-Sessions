@@ -1,6 +1,7 @@
 # Tasks for Programming Abstractions
 ### Color: Purple
 
+- [ ] catch up on lecture, thursday 7/23
 - content confusions:
 	- [ ] check the difference bween pass-by-value and pass-by-reference in  java (primitive vs non-primitve data types)
 	- [ ] i asked this during lecture but honestly didn't get it...why does using a forloop to iterate through the index instead of passing it through the method allow for identical possibilities to be searched?
@@ -20,13 +21,55 @@
 - [ ] is O(n n^2) a thing? or does that just simplify to O(n^2)?
 - [ ] can a backtracking problem be a backtracking problem if it doesn't have an unchoose step? (midterm EC)
 
+- [ ] things work in debugger but not when running normally
+	- ![[Pasted image 623.png]] vs ![[Pasted image 624.png]] vs ![[Pasted image 625.png]]
+
 
 ## Assign 4
 - [ ]  check the tests from the starter code of 7-20 lecture to see how to write tests for hw
-- [ ]  view yeah
+- [x]  warmups
+- [ ]  PQSortedArray
+	- [x]  enqueue
+	- [x]  validateInternalState
+	- [x]  resizing (rbq from section5)
+	- [ ]  additional tests...? (off by one errors?)
+- [x]  PQueue Client Tasks
+	- [x]  pqsort
+	- [x]  top-k problem
+		- [ ]  testing
+			- [x]  empty vector
+			- [x]  stream with fewer elements than k
+		- [x]  timing analysis	
+			- [ ]  actually, is O(n k) right??
+- [ ]  PQHeaps
+	- [x]  getParent, getLeftChild, getRightChild
+	- [x]  validateInternalState (a binary min heap has parents greater than two children)
+	- [x]  swap()
+	- [x]  enqueue, bubbleUp();
+	- [x] dequeue, bubbleUp()
+	- [ ]  testing
+		- [ ]  ...helper methods?? idek
+		- [ ]  more edge cases for enqueue?
+	- [x] timing
+- [x]  Data Analysis Demo
+- [ ] submit initial
+	- [x] pqsortedarray.cpp/.h
+	- [x] pqclient.cpp
+	- [x] pqheap.cpp/.h
+	- [ ] short answers  
 
 
 ## Final Project
-- [ ] check guidelines + timeline
+- [ ] check guidelines
+- timeline:
+	- Week of 7/20: Read the project guidelines and look through the provided example project writeup. Start brainstorming ideas for the problem that you want to work on and pick a topic we've covered in the class so far that you want to improve on. start working on a first draft of the problem writeup and at least one draft solution to the problem.
+
+	- Week of 7/27: Talk with an SL, Trip, Nick, or Kylie during LaIR or OH this week to get feedback on your problem. Finish writing up answers to the required questions, as well as any alternate solutions.
+
+	- Week of 8/3: Finish polishing your project report and put the finishing touches together. The project report is due on August 9th.
+		- keep in mind you'll loose half this week to studying for 193c finals!
+
+	- Week of 8/10: Prepare for your presentation to your section leader, practicing your teaching and explanations skills! Presentations will take place from August 13th to August 16th. 
+		- keep in mind you'll loose half this week to school, and probably the other half to studying for finals!
 
 

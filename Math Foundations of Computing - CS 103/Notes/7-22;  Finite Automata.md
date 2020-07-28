@@ -43,7 +43,7 @@
 		- ![[Pasted image 587.png]]
 		- every automata has a language
 
-### DFAs 
+## DFAs 
 - **Formalizing an Automaton**
 	- you want to avoid cases where a string doesn't have any transitions to go out of a state at some char, or if there are more than one valid transition out of a state
 		- ![[Pasted image 588.png]]
@@ -59,6 +59,7 @@
 
 - recognizing Languages with DFAs
 	- [ ] check middle of lecture
+	- DFAs are used to check if a string is in a language
 	- [ ] ![[Pasted image 592.png]]
 	- [] accept if the input includes any substring of "aa"
 		- ![[Pasted image 593.png]]
@@ -75,7 +76,7 @@
 - so it is a classification of problems
 - (more on friday)
 
-### NFAs - Nondeterministic Finite Automaton
+## NFAs - Nondeterministic Finite Automaton
 - a model of computation is deterministic if at every point in the computation, there is only one choice to be made. 
 - **existential nondeterminitistic models** have multiple choices from a single point, and will accept an input is there *exists at least one possible path* that will end in an accept state
 
@@ -83,6 +84,54 @@
 
 - if the automaton reaches a point with no transition to go through, that path "dies"
 	- [] ![[Pasted image 597.png]]
+- [] the NFA only accepts "hi"
+	- ![[Pasted image 609.png]]
+- [] the first one accepts anysrting that ends in "11", the second one accepts nothing (the empty set), the third one accepts the empty string ($\epsilon$), the last one accepts all possible strings over this alphabet ($\Sigma$)
+	- ![[Pasted image 610.png]]
+- **epsilon transitions** are a unique feature of NFAs, these optional transitions don't *consume an input*
+	- [] ![[Pasted image 611.png]]
+	- so in the tree of all possibilities, this is another option like any regular character transition, it just doesn't move our little cursor over (so this does drastically increase the number of paths available) 
+		
+### Ways to think about NFAs
+- non-deterministic functions have multiple possible paths/a whole tree, but...
+- **Perfect Guessing** = when making/designing an NFA, instead of thinking of every possible path your NFA can take, imagine that the machine is just very lucky (*felix felices*) and always picks the most efficient path
+	- [ ] 
+- **Massive Parralelism** = when tracing an NFA in your head, just imagine your paths *forking*, so the automaton in your head will be on multiple states at once
+	- ![[Pasted image 612.png]]
+	- using this way of thinking, you can fork through every possibility and every possible end state
+	- rigourous definition
+		- ![[Pasted image 613.png]]
+
+- we can use *guess and check* style strategies to create NFAs
+	- [] ![[Pasted image 614.png]] - it's like each path acts as a "guess" at each point in the string. you start by designing the end points/the two paths
+
+## DFAs vs. NFAs
+### Expressing in software:
+- you can think of representing DFAs in a table (sigmas are just both 0 and 1 here)
+	- ![[Pasted image 615.png]]
+	- turning into code : ![[Pasted image 616.png]] (this is what compilers have built in)
+ - for NFAs, note that at each point it doesn't matter what surrounding decisions could look like
+	 - ![[Pasted image 617.png]]
+	 - you can think of a table of *all possible combinations of paths* (using massive parralelism) and then create a DFA out of that!
+		 - ![[Pasted image 620.png]] (imagine as and bs in the transitions of last DFA)
+
+
+- transforming NHA to DHA is called **subset construction**
+	- ![[Pasted image 621.png]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

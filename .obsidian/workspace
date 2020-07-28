@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "d849bdbd7736158d",
+        "id": "da6abdf313049b61",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Clientside Internet Technology - CS 193C/Notes/7-14; Intro to Javascript!.md",
-            "mode": "preview"
+            "file": "Math Foundations of Computing - CS 103/Notes/7-22;  Finite Automata.md",
+            "mode": "source"
           }
         }
       }
@@ -72,10 +72,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Clientside Internet Technology - CS 193C/Notes/7-14; Intro to Javascript!.md",
-    "Clientside Internet Technology - CS 193C/Tasks.md",
-    "Programming Abstractions - CS 106B/Notes/7-20; Designing our own ADTs 1.md",
     "Math Foundations of Computing - CS 103/Notes/7-22;  Finite Automata.md",
+    "Math Foundations of Computing - CS 103/Notes/7-15; Graph Theory.md",
+    "Programming Abstractions - CS 106B/Notes/All Feedback.md",
+    "Math Foundations of Computing - CS 103/Tasks.md",
     "Math Foundations of Computing - CS 103/Notes/All Proof-writing Feedback.md"
   ]
 }

@@ -32,7 +32,7 @@
 		- a single node has a path of length of 0
 	- a **cycle** is a path from one node back to itself (by convention, not allowed to have length zero)
 		- ![[Pasted image 433.png]]
-		- now the length is still one less than the number of cities, but the path includes the same name twice so the length is equal to the number of nodes listed
+		- now the length is still one less than the number of cities, but the path includes the same name twice so the length is equal to the number of nodes listed (so the length of a cycle is the *number of distinct nodes still = number of edges*)
 	- a **simple path** is a path that does not repeat any nodes or edges
 		- [/] ![[Pasted image 434.png]]
 	- a **simple cycle** is a cycle that does not repeat any nodes or edges except the first/last node

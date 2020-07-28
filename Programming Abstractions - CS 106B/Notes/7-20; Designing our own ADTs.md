@@ -37,6 +37,7 @@ OurVector::OurVector(){
 	elements = new int[allocatedCapacity];
 }
 
+//oops i forgot the return types for all of these lmao
 
 OurVector::~OurVector(){
 	delete[] elements
@@ -127,7 +128,8 @@ OurVector::insert(int index, int value){
 - so we'll create a helper function called "expand" to do this
 	- this method has to be *private*, so it's in the private section of the header
 
-```void OurVector(){
+```
+void OurVector::resize(){
 	//ask for new space in a new array
 	int* newElements = new int[2 * allocatedCapacity];
 	

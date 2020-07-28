@@ -13,8 +13,16 @@
 	- remember that this could be repeated *a lot*. don't use expensive operations within your loop ([]keep an index variable and update that > make a substr with every loop (assign2, search.cpp))
 	- be careful about your check - it should handle edge cases too! ([] don't just check if current char is a punc, check if the string is empty first)
 	- the benefit of do-while loops is you don't need to repeat the "half-loop", so make sure you're not if you're trying to take advantage of that (assign 2, search.cpp)
+- watch out for simpler ways of writing things
+	- `str[0]` instead of `str.substr(0, 1)`
+	- `return{}` instead of initializing a whole vector/queue/just about anything of size 0 and returning that
+- don't have arms-length recursion calls! (= when you have a recursive call within an if-statement that isn't the base case when it should be. instead of this, you want to make that check part of the base case, and if the base case doesn't pass only then will the recursive call be called. it's like if you only called the fibonacci recursive function if n-1!=0 instead of making n== 0 the base case). 
+
+
 - :) caught edge cases well (||)
-- :) tested well (||)
+- :) tested well (|||)
+
+
 ### Style
 - *in-line comments should be short. if anything is too long, keep them in a seperate file, maybe even multi-line* 
 - even the multi line comments don't have to be so long
@@ -31,6 +39,7 @@
 ### Full Grades:
 - Assign1 (Functionality: +, Style: ✓+)
 - Assign2 (Functionality: ✓+, Style: ✓+)
+- Assign3 (Functionality: ✓+, Style: ✓+)
 
 
 ## Assessments
