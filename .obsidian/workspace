@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Math Foundations of Computing - CS 103/Notes/7-22;  Finite Automata.md",
-            "mode": "source"
+            "file": "Math Foundations of Computing - CS 103/Notes/7-27 Regular Expressions.md",
+            "mode": "preview"
           }
         }
       }
@@ -72,10 +72,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "Math Foundations of Computing - CS 103/Notes/7-27 Regular Expressions.md",
     "Math Foundations of Computing - CS 103/Notes/7-22;  Finite Automata.md",
-    "Math Foundations of Computing - CS 103/Notes/7-15; Graph Theory.md",
-    "Programming Abstractions - CS 106B/Notes/All Feedback.md",
-    "Math Foundations of Computing - CS 103/Tasks.md",
-    "Math Foundations of Computing - CS 103/Notes/All Proof-writing Feedback.md"
+    "Programming Abstractions - CS 106B/Notes/7-25; Linked Lists.md",
+    "Programming Abstractions - CS 106B/Notes/7-25; Linked Lists 1.md",
+    "Programming Abstractions - CS 106B/Notes/7-27; Linked Lists.md"
   ]
 }
