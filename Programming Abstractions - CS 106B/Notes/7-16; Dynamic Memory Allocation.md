@@ -1,5 +1,5 @@
 # Dynamic Memory Allocation
-### July 16, 2020 - day 15
+### July 16, 2020 - day 16
 
 - everything (every object) requires some storage space. All of our classes used so far (Vectors, Queues, etc.) use *dynamic memory allocation* to get that space under the hood
 - you can work directly with computer memory too!

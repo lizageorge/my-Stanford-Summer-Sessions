@@ -1,5 +1,5 @@
 # Linked Lists
-### July 25, 27,28 2020 - day 19-21
+### July 25, 27,28 2020 - day 20-22
 
 - how we can organize memory *non-contigously* (not in arrays)
 - again, we use pointers to organize computer memor

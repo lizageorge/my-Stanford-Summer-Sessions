@@ -1,5 +1,5 @@
 # Finite Automata
-### July 22, 2020 - lecture 12
+### July 22, 29 2020 - lecture 12, 15
 
 - computers are really messy and diverse and complex, but fundamentally are very similar and *can* and *should* be generalized and abstracted in **computational models**
 	- models allow us to
@@ -121,7 +121,10 @@
 
 
 
-
+## Applications of Finite Automata
+- each state in a DFA corresponds to a particular computer configuration. the transitions are abstractions of the functions/algorithms that take the computer from one state to another based on computer input
+- there are a finite number of bits in computer memory, so there's 2^(that number of bits) finite number of configurations 
+- regular languages correspond to problems that can be solved with finite memory
 
 
 

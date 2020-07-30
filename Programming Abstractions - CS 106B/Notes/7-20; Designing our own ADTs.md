@@ -1,5 +1,5 @@
 # Designing our own ADTs
-### July 20, 21 2020 - day 16, 17
+### July 20, 21 2020 - day 17, 18
 
 - combining what we learned about c++ classes and memory allocation to replicate the ADTS we've used from Stanford library
 

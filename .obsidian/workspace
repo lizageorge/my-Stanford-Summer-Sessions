@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Math Foundations of Computing - CS 103/Notes/7-27 Regular Expressions.md",
+            "file": "Programming Abstractions - CS 106B/Notes/7-25; Linked Lists.md",
             "mode": "preview"
           }
         }
@@ -72,10 +72,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Math Foundations of Computing - CS 103/Notes/7-27 Regular Expressions.md",
-    "Math Foundations of Computing - CS 103/Notes/7-22;  Finite Automata.md",
     "Programming Abstractions - CS 106B/Notes/7-25; Linked Lists.md",
-    "Programming Abstractions - CS 106B/Notes/7-25; Linked Lists 1.md",
-    "Programming Abstractions - CS 106B/Notes/7-27; Linked Lists.md"
+    "Programming Abstractions - CS 106B/Notes/7-28; Sorting.md",
+    "Programming Abstractions - CS 106B/Notes/7-22; Computers and Pointers.md",
+    "Programming Abstractions - CS 106B/Notes/7-20; Designing our own ADTs.md",
+    "Programming Abstractions - CS 106B/Notes/7-16; Dynamic Memory Allocation.md"
   ]
 }

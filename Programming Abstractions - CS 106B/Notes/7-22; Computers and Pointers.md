@@ -1,5 +1,5 @@
 # Computers and Pointers
-### July 20, 21 2020 - day 18
+### July 20, 21 2020 - day 19
 
 ## How is a Computer Memory System Organized?
 - another abstraction boundary: ![[Pasted image 598.png]]

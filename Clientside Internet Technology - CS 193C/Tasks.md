@@ -4,23 +4,28 @@
 - [ ] history of js, lecture 5
 
 
-### Assign 3
-- [ ] colleges
-	- [ ] fix the button positioning to be outside table
-	- [ ] (extra) format tuition
-	- [ ] (extra) order collumns by click
-- [ ] matching
-	- [x] layout (with set cards)
-	- [x] flipping to front on click
-	- [x] reset button
-	- [x] flipping to back automatically, 1.5 sec
-	- [x] stop other cards from being clicked while first card is face-up
-	- [x] randomization
-	- [x] matching + deletion
-- [ ] destructuring-word
-	- [ ] getData results
-	- [ ] getDorms results
-
+### Assign 4
+- [x] photo gallery
+	- [x] slideshow
+		- [x] active buttons
+		- [x] forwards
+		- [x] backwards
+	- [x] fixed centering
+	- [x] dynamic centering
+	- [ ] styled forwardsbackwards buttons
+- [ ] map
+	- [x] window resizing resizes the map frame
+	- [ ] click-an-drag
+		- [ ] change cursor
+	- [ ] double-clicked point to center
+	- [ ] navigation rosette
+	- [ ] zoom
+		- [ ] preload images
+		- [ ] keep images centered
+	- [ ] scrolling
+		- [ ] left/right
+		- [ ] up/down
+	- [ ] fix window scrolling issue
 - turn in
 	
 
