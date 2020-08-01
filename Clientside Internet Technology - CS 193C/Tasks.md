@@ -18,7 +18,7 @@
 	- [ ] click-an-drag
 		- [ ] change cursor
 	- [ ] double-clicked point to center
-	- [ ] navigation rosette
+	- [x] navigation rosette
 	- [ ] zoom
 		- [ ] preload images
 		- [ ] keep images centered
@@ -26,6 +26,7 @@
 		- [ ] left/right
 		- [ ] up/down
 	- [ ] fix window scrolling issue
+	- [ ] fix frame being taller than smallest image
 - turn in
 	
 

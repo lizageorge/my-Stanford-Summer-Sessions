@@ -69,6 +69,10 @@
 	- so the difference between this an regular induction is assuming P(0), P(1), P(3)...P(k) is true instead of just P(k)
 		- ![[Pasted image 529.png]]
 	- note that k could be 0, so it's easier to think of this as "P(k-k)...P(k-2), P(k-1), P(k)".
+- template for complete induction:
+	- `Now, assume for some arbitrary k ≥ 1 that P(1), P(2), …, and P(k) are true, so 9meaning..). We will prove P(k+1),  (meaning...).
+(actual proof, uses the fact that P(1)...P(k) is true).
+Therefore, P(k+1) is true, completing the induction.`
 - [] ![[Pasted image 531.png]], ![[Pasted image 530.png]]
 	- using complete induction allowed us to work with much more general assumption than smth as small and specific as P(k). In this case, if we had done the latter, we would need additional proofs
 	- ![[Pasted image 532.png]] - prove on *any* simpler set than k

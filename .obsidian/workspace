@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Programming Abstractions - CS 106B/Notes/7-25; Linked Lists.md",
+            "file": "Math Foundations of Computing - CS 103/Notes/7-22;  Finite Automata.md",
             "mode": "preview"
           }
         }
@@ -72,10 +72,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Programming Abstractions - CS 106B/Notes/7-25; Linked Lists.md",
-    "Programming Abstractions - CS 106B/Notes/7-28; Sorting.md",
-    "Programming Abstractions - CS 106B/Notes/7-22; Computers and Pointers.md",
-    "Programming Abstractions - CS 106B/Notes/7-20; Designing our own ADTs.md",
-    "Programming Abstractions - CS 106B/Notes/7-16; Dynamic Memory Allocation.md"
+    "Math Foundations of Computing - CS 103/Notes/7-22;  Finite Automata.md",
+    "Math Foundations of Computing - CS 103/Notes/7-17, 7-20; Induction.md",
+    "Math Foundations of Computing - CS 103/Notes/7-29 Non-Regular Languages.md",
+    "Math Foundations of Computing - CS 103/Notes/7-29 Non-Regular Languages 1.md",
+    "Clientside Internet Technology - CS 193C/Tasks.md"
   ]
 }
