@@ -25,6 +25,7 @@
 	- [ ] ec problems from pset 4
 
 - concept confusions
+	- [x] in the definition for distinguishable strings over L...does it have to be xw and yw or can it be wx and wy? (like in pset 5 problem 1)
 	- [ ] the relationship between universal statements, implication and the and operator
 		- (from guide to negations) ![[Pasted image 238.png]]
 		- (from notes 6/29) ![[Pasted image 239.png]]

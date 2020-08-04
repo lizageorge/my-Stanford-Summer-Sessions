@@ -25,38 +25,29 @@
 	- ![[Pasted image 623.png]] vs ![[Pasted image 624.png]] vs ![[Pasted image 625.png]]
 
 
-## Assign 4
-- [ ]  check the tests from the starter code of 7-20 lecture to see how to write tests for hw
-- [x]  warmups
-- [ ]  PQSortedArray
-	- [x]  enqueue
-	- [x]  validateInternalState
-	- [x]  resizing (rbq from section5)
-	- [ ]  additional tests...? (off by one errors?)
-- [x]  PQueue Client Tasks
-	- [x]  pqsort
-	- [x]  top-k problem
-		- [ ]  testing
-			- [x]  empty vector
-			- [x]  stream with fewer elements than k
-		- [x]  timing analysis	
-			- [ ]  actually, is O(n k) right??
-- [ ]  PQHeaps
-	- [x]  getParent, getLeftChild, getRightChild
-	- [x]  validateInternalState (a binary min heap has parents greater than two children)
-	- [x]  swap()
-	- [x]  enqueue, bubbleUp();
-	- [x] dequeue, bubbleUp()
-	- [ ]  testing
-		- [ ]  ...helper methods?? idek
-		- [ ]  more edge cases for enqueue?
-	- [x] timing
-- [x]  Data Analysis Demo
-- [ ] submit initial
-	- [x] pqsortedarray.cpp/.h
-	- [x] pqclient.cpp
-	- [x] pqheap.cpp/.h
-	- [ ] short answers  
+## Assign 5
+- [x]  warmup
+- [X]  the labyrinth
+	- [X]  isPathToFreedom
+		- [X]  check for having needed magic items
+		- [X]  (then!) check for valid char
+		- [X]  (then!) check for going into a wall
+	- [X]  escape
+- [ ]  sorting
+	- [x]  helpers
+		- [x]  deallocateList
+		- [x]  createListFromVector
+		- [x]  checkListEquality
+		- [ ]  tests (whtv, i think it's fine)
+	- [ ]  mergesort
+		- [ ]  split
+		- [ ]  merge
+		- [ ]  test
+	- [ ]  quicksort
+		- [ ]  partition
+		- [ ]  concatenate
+		- [ ]  test
+	- [ ]  time tests
 
 
 ## Final Project

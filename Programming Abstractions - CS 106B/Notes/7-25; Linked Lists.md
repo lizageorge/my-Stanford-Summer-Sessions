@@ -1,5 +1,5 @@
 # Linked Lists
-### July 25, 27,28 2020 - day 20-22
+### July 25-28 2020 - day 20-22
 
 - how we can organize memory *non-contigously* (not in arrays)
 - again, we use pointers to organize computer memor
@@ -88,9 +88,6 @@
 	- ![[Pasted image 681.png]]
 	- notice how many pointers (cur and prev) we're using to keep track of different elems in traversal
 	- notice how at the end, before dereferncing, we always protect against dereferencing nullpts
-
-
-
 
 
 

@@ -34,7 +34,8 @@
 			- ![[Pasted image 605.png]] 
 		- if you try to derefence a pointer of nullptr value, the program will crash (= **segmentation fault**), but if you derefence a pointer of garbage values, you get unpredictable behaviour which is arguably worse	
 	- use the box and arrow diagrams to understand what exactly is happenning
-
+- a nice analogy from assign5 about memory leaks;
+	- *"A leak is analogous to forgetting to check out of your hotel room, causing the hotel staff to believe your room is still occupied and to not reassign it to a new customer."*
 
 rip binky 1999-1999
 

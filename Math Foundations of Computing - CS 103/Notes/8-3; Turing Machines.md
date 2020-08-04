@@ -1,0 +1,97 @@
+# Turing Machines
+### August 3, 2020 - lecture 17
+
+### Summary 
+- terminology of TMs
+	- ![[Pasted image 752.png]]
+- what the language of a TM means;
+	- ![[Pasted image 751.png]]
+
+### what languages are we looking at now? (more at the end)
+- finite automata can accet exactly the regular languages
+- how do we solve context-free languages? do we need a finite number of states as long as we can use unbounded memory?
+### A bit of history
+- 1900, Hilbert wanted to solve his 23 unsolved problems with automated mathematics. But then Alan Turing came along and came up with the turing machine and proved some problems unsolvable
+
+
+## The Turing Machine
+- there's an equivalent to 'scratch space' to keep track of information for the computation as we go. think of this infinite amount of scratch space/memory as a reel of film tape
+	- ![[Pasted image 732.png]]
+	- MISSED A BUNCH
+- The input string can be inserted onto this tape. The *tape head* will look at one char at a time
+	- ![[Pasted image 733.png]]
+	- if it starts on the empty string, the entire tape must be empty and the position on the tape must be arbitrary 
+- each transition is of the form `read -> write, directions(L/R`
+	- ![[Pasted image 734.png]]
+- the machine doesn't necessarily stop reading once it reaches the end of the string, but only when we reach a **rejecting state**. still, we can be confident that if we read a blank, we've gone off the end of the input
+- the machine stops immediately once it reaches an accepting or rejecting string
+- the key definitions!
+	- ![[Pasted image 735.png]]
+	- ![[Pasted image 736.png]]
+- **determinism**
+	- for every combination of a non-accepting/rejecting state and a tape symbol there must be exactly one transition defined
+		- any missing transitions implicitly go straight to a rejecting state 
+		- ![[Pasted image 737.png]] = ![[Pasted image 738.png]]
+- the language of a turing machine is the set of strings that the TM accepts (the original inputs, not the mangled results on the tape)
+
+### Designing Turing Machines
+- MISSED A BUNCH
+- [] a language with (0)^n(1)^n for n \in N (non-regular)
+	- ![[Pasted image 741.png]] (the missing transitions implicitly go to a reject state)
+- [] a language with the same number of 0s and 1s (non-regular, also context-free) (straightforward)
+	- a common problem - if you encounter a blank in the middle of string that you inserted earlier, how do you know it isn't one of the infinately many blanks outside the string?
+		- one solution is to replace the blanks you insert with some other arbitrary character (say 'x') from the *tape alphabet, not the input alphabet!* (it is technically possible to have an infinite input alphabet, but there are ways to still model the tape alphabet characters differently)
+	- ![[Pasted image 743.png]]
+	- sometimes a TM might need to remember extra infor that can't be put on the tap, in which case you can add a (finite number of ) extra state  
+
+- - [] a language with the same number of 0s and 1s (non-regular, also context-free) (crazy big brain)
+	- sort the string first! and then use the old algorithm for checking (0)^n(1)^n 
+		- remember, a string is sorted if it matches 0\*1\* 
+		- repeatedly find copies of 10 and replace them with 01
+		- ![[Pasted image 744.png]]
+	- that last dotted line circle is acting as a placeholder for another TM ( = **subroutine**)
+		- TM subroutines allows the equivalent of function decomposition!
+
+## Idealized Computing Machines
+- we can imagine an idealized computer simulating a TM
+	- ![[Pasted image 745.png]]
+- you can really do a lot of stuff that we do on the computer in a TM (split up the tape into multiple locations, represent arrays and linked structures, etc.)
+- except for randomness and user input, *TMs can do anything a computer can do* (even if they're insanely slow and inneficient)
+### Effective Computation
+- an **Effective Method of computation** solves a problem with a set of steps, in a finite number of states
+- the *Church-Turing Thesis* is a *claim* that every effective method of computation is either equivalent to or weaker than a Turing Machine!
+	- ![[Pasted image 747.png]]
+	- so TMs can be approximated as computers
+
+
+### What kind of problems can a computer solve - solve?
+- you can actually claim that a solution doesn't necessarily work for all possible inputs, it just works for the ones we know (Collatz conjecture on Hailstone Sequence TM)
+- tms can technically go endlessly
+	- ![[Pasted image 749.png]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

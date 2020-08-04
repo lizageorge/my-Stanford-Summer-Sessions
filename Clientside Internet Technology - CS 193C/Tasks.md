@@ -13,19 +13,22 @@
 	- [x] fixed centering
 	- [x] dynamic centering
 	- [ ] styled forwardsbackwards buttons
+	- [ ] add pre-loading
 - [ ] map
 	- [x] window resizing resizes the map frame
 	- [ ] click-an-drag
-		- [ ] change cursor
-	- [ ] double-clicked point to center
+		- [x] drag functionality
+		- [x] change cursor
+		- [x] make the dragging stop also when curson leaves img
+	- [x] double-clicked point to center
 	- [x] navigation rosette
 	- [ ] zoom
-		- [ ] preload images
+		- [x] preload images
 		- [ ] keep images centered
 	- [ ] scrolling
-		- [ ] left/right
-		- [ ] up/down
-	- [ ] fix window scrolling issue
+		- [x] left/right
+		- [x] up/down
+	- [x] fix window scrolling issue
 	- [ ] fix frame being taller than smallest image
 - turn in
 	
