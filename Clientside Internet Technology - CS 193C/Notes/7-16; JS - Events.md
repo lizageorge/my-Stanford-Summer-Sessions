@@ -46,8 +46,8 @@
 	- **target** = what element triggered the event? (like where did the mouse go?)
 	- **related target** = (sometimes doesn't exist) smth related to the event occuring (like what the mouse was on before)
 	- **current target** = the element containing this event handling (how to differentiate among elements with listereners for the same event, when a nested element's handler is called:	  )
-		- *bubbling phase*  = when an event handler from the child element is activated, and the event is handed up to the parent elements (inside->out)
-		- *capture phase* = when the parent handler is called first, and the event is passed down (add called) to the child listener methods
+		- *bubbling phase*  = by default, when an event handler from the child element is activated, and the event is handed up to the parent elements (inside->out)
+		- *capture phase* = if you specify, when the parent handler is called first, and the event is passed down (add called) to the child listener methods. set it to capture by setting the third parameter of addEventListener to true or using the object format
 		- if you want either chain to end, you can use `stopPropogation`
 		- if you want some handlers to go through capture phase and some in bubbling phase, you change the boolean at the end of the .addListenerMethod accordingly
 - most of the time, multiple event handlers can be added to one object

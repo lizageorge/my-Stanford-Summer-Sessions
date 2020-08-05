@@ -39,15 +39,17 @@
 		- [x]  createListFromVector
 		- [x]  checkListEquality
 		- [ ]  tests (whtv, i think it's fine)
-	- [ ]  mergesort
-		- [ ]  split
-		- [ ]  merge
-		- [ ]  test
-	- [ ]  quicksort
-		- [ ]  partition
-		- [ ]  concatenate
-		- [ ]  test
+	- [x]  mergesort
+		- [x]  split
+		- [x]  merge
+			- [ ]  why are the nodes passed by reference again?
+		- [x]  test
+	- [x]  quicksort
+		- [x]  partition
+		- [x]  concatenate
+		- [x]  test
 	- [ ]  time tests
+	- [ ]  UNCOMMENT THE MAIN FILE PROTOTYPE CHECK
 
 
 ## Final Project

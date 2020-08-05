@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Clientside Internet Technology - CS 193C/Tasks.md",
+            "file": "Math Foundations of Computing - CS 103/Notes/7-22;  Finite Automata.md",
             "mode": "preview"
           }
         }
@@ -72,10 +72,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Clientside Internet Technology - CS 193C/Tasks.md",
-    "Math Foundations of Computing - CS 103/Tasks.md",
-    "Math Foundations of Computing - CS 103/Notes/6-22; Intro to Sets.md",
-    "Math Foundations of Computing - CS 103/Notes/7-29 Non-Regular Languages.md",
-    "Math Foundations of Computing - CS 103/Notes/7-31 - Context-Free Grammars.md"
+    "Math Foundations of Computing - CS 103/Notes/7-22;  Finite Automata.md",
+    "Clientside Internet Technology - CS 193C/Notes/7-16; JS - Events.md",
+    "Clientside Internet Technology - CS 193C/Notes/7-14; Intro to Javascript!.md",
+    "Clientside Internet Technology - CS 193C/Notes/7-16; JS - Selecting Elements.md",
+    "Programming Abstractions - CS 106B/Notes/7-20; Designing our own ADTs.md"
   ]
 }

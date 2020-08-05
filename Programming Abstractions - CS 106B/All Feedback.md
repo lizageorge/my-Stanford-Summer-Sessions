@@ -20,7 +20,8 @@
 
 
 - :) caught edge cases well (||)
-- :) tested well (|||)
+- :) tested well (||||)
+- :) wrote nice helper functions (|)
 
 
 ### Style
@@ -40,6 +41,7 @@
 - Assign1 (Functionality: +, Style: ✓+)
 - Assign2 (Functionality: ✓+, Style: ✓+)
 - Assign3 (Functionality: ✓+, Style: ✓+)
+- Assign4 (Functionality: ✓+, Style: ✓+)
 
 
 ## Assessments
