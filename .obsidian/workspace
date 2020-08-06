@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Math Foundations of Computing - CS 103/Notes/7-22;  Finite Automata.md",
+            "file": "Math Foundations of Computing - CS 103/Notes/7-29 Non-Regular Languages.md",
             "mode": "preview"
           }
         }
@@ -46,7 +46,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 417.00680351257324
+    "width": 466.00680351257324
   },
   "right": {
     "id": "b905a67981d9ed0b",
@@ -72,10 +72,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Math Foundations of Computing - CS 103/Notes/7-22;  Finite Automata.md",
-    "Clientside Internet Technology - CS 193C/Notes/7-16; JS - Events.md",
-    "Clientside Internet Technology - CS 193C/Notes/7-14; Intro to Javascript!.md",
-    "Clientside Internet Technology - CS 193C/Notes/7-16; JS - Selecting Elements.md",
-    "Programming Abstractions - CS 106B/Notes/7-20; Designing our own ADTs.md"
+    "Math Foundations of Computing - CS 103/Notes/7-29 Non-Regular Languages.md",
+    "Math Foundations of Computing - CS 103/Notes/7-31 - Context-Free Grammars.md",
+    "Programming Abstractions - CS 106B/CS106B-Exercises/FinalExam/George, Liza Final Project - Funky Words.md",
+    "Programming Abstractions - CS 106B/Notes/8-3; Trees.md",
+    "Programming Abstractions - CS 106B/Notes/7-25; Linked Lists.md"
   ]
 }

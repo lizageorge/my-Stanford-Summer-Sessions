@@ -80,5 +80,35 @@
 	- ![[Pasted image 766.png]]
 	- notice that we implicitly not add any duplicates to the tree
 	- you only ever have to add to the leaves, never rearrange the middle of the tree
-- there's a remove function in the lecture code 
+- there's a remove function in the lecture code the more complicated rewiring processes
 - on a balanced tree, all of these functions would have an O(log n) runtime!
+
+### Lossless compression and the Hoffman algorithms
+- we would compress a string/askii character using a prefix coding scheme, that coding scheme can be represented in a tree!
+	- ![[Pasted image 767.png]]
+- To creat that prefix coding scheme...
+- Hoffman algorithm is a way to minimally compress the string
+	- steps
+		- 1. create a frequency table
+		- 2. initialize a priority queue and fill it with a leaf node for each character in the original character with a weight corresponding to how often it appeared
+			- ![[Pasted image 768.png]]
+		- 3. dequeue the first and second elements in the queue, then create a new null value tree node that has those two elements as the two children, and its own weight will be the sum of the two children's weight. then insert this node back into the priority queue
+			- ![[Pasted image 769.png]]
+		- 4. repeat until the priority queue is empty and there's your optimal coding scheme! Now the code for each character is equal to the path from the root to that leaf node
+			- ![[Pasted image 771.png]]
+		- we're building up the tree 'bottom up' so that low-frequency-character nodes are lower in the tree and thus have longer paths
+
+- to decompress a coding scheme, the tree must be given with the string. so sometimes it takes up more data to send the encoding tree and compressed string than it would be it you just sent the uncompressed string
+	- -> it is impossible to create a perfect compression algorithm
+
+
+
+
+
+
+
+
+
+
+
+

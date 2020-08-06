@@ -33,7 +33,7 @@
 		- [X]  (then!) check for valid char
 		- [X]  (then!) check for going into a wall
 	- [X]  escape
-- [ ]  sorting
+- [x]  sorting
 	- [x]  helpers
 		- [x]  deallocateList
 		- [x]  createListFromVector
@@ -42,14 +42,17 @@
 	- [x]  mergesort
 		- [x]  split
 		- [x]  merge
-			- [ ]  why are the nodes passed by reference again?
+			- [x]  why are the nodes passed by reference again?
 		- [x]  test
 	- [x]  quicksort
 		- [x]  partition
 		- [x]  concatenate
 		- [x]  test
-	- [ ]  time tests
-	- [ ]  UNCOMMENT THE MAIN FILE PROTOTYPE CHECK
+	- [x]  time tests
+- [ ]  submit
+	- [x]  check labyrinth
+	- [x]  check sortint
+	- [ ]  check short answers
 
 
 ## Final Project
