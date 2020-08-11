@@ -10,8 +10,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Math Foundations of Computing - CS 103/Notes/8-3; Turing Machines.md",
-            "mode": "preview"
+            "file": "Clientside Internet Technology - CS 193C/Notes/8-10; High-Performance Website.md",
+            "mode": "source"
           }
         }
       }
@@ -72,10 +72,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Math Foundations of Computing - CS 103/Notes/8-3; Turing Machines.md",
-    "Programming Abstractions - CS 106B/Notes/8-10; Graphs and Graph Algorithms.md",
-    "Programming Abstractions - CS 106B/Notes/8-05; Encoding and Compression.md",
-    "Programming Abstractions - CS 106B/Notes/8-5; Encoding and Compression.md",
-    "Programming Abstractions - CS 106B/Notes/8-3; Trees.md"
+    "Clientside Internet Technology - CS 193C/Notes/8-10; JS - Error Handling 1.md",
+    "Clientside Internet Technology - CS 193C/Notes/8-10; Ajax.md",
+    "Clientside Internet Technology - CS 193C/Notes/8-10; JS - Error Handling.md",
+    "Clientside Internet Technology - CS 193C/Notes/Untitled.md",
+    "Clientside Internet Technology - CS 193C/Notes/7-16; JS - Selecting Elements.md"
   ]
 }
