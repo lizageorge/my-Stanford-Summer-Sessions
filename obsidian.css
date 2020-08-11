@@ -39,7 +39,7 @@
   --text-faint: rgba(150, 150, 150, 255);
   --text-highlight-bg: #dbaa205e;
   --text-nav-selected: rgba(255, 255, 255, 255);
-  --text-nav: #d6ba7c;
+  --text-nav: rgba(190, 190, 190, 255);
   --text-normal: rgba(44, 44, 44, 255);
   --text-accent-hover: #d6ba7c;
   --interactive-accent-hover: #d6ba7c;

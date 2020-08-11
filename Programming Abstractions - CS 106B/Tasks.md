@@ -25,35 +25,31 @@
 	- ![[Pasted image 623.png]] vs ![[Pasted image 624.png]] vs ![[Pasted image 625.png]]
 
 
-## Assign 5
-- [x]  warmup
-- [X]  the labyrinth
-	- [X]  isPathToFreedom
-		- [X]  check for having needed magic items
-		- [X]  (then!) check for valid char
-		- [X]  (then!) check for going into a wall
-	- [X]  escape
-- [x]  sorting
-	- [x]  helpers
-		- [x]  deallocateList
-		- [x]  createListFromVector
-		- [x]  checkListEquality
-		- [ ]  tests (whtv, i think it's fine)
-	- [x]  mergesort
-		- [x]  split
-		- [x]  merge
-			- [x]  why are the nodes passed by reference again?
-		- [x]  test
-	- [x]  quicksort
-		- [x]  partition
-		- [x]  concatenate
-		- [x]  test
-	- [x]  time tests
-- [ ]  submit
-	- [x]  check labyrinth
-	- [x]  check sortint
-	- [ ]  check short answers
-
+## Assign 6
+- [ ] warmup
+	- [x] saq, 
+		- [x] flattening
+		- [x] optimal
+	- [x] code, 
+		- [x] createexampletree
+		- [x] deallocatetree
+		- [x] areequal
+	- [ ] huffman encoding
+		- [x] decode
+		- [x] unflatten
+			- [ ] more tests?
+		- [x] decompress
+		- [x] encode
+			- [ ] fillMap - more tests?
+			- [ ] more tests?
+		- [x] flatten
+			- [ ] more tests?
+		- [x] buildHuffmanTree
+		- [x] compress
+		- [ ] end-to-end tests
+- [ ] is it ok that i've been using tree->one== nullptr to check for char nodes?
+- [ ] is creating a map of the entire tree for encode text the right thing to do?
+- [ ] should i be writing more tests for all the helper functions?
 
 ## Final Project
 - [ ] check guidelines

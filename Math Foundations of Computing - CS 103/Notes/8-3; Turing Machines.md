@@ -1,9 +1,10 @@
 # Turing Machines
-### August 3, 2020 - lecture 17
+### August 3, 9, 2020 - lecture 17-18
 
 ### Summary 
 - terminology of TMs
 	- ![[Pasted image 752.png]]
+	- (so if something doesn't accept, it didn't necessarily reject it could have looped)
 - what the language of a TM means;
 	- ![[Pasted image 751.png]]
 
@@ -52,6 +53,18 @@
 	- that last dotted line circle is acting as a placeholder for another TM ( = **subroutine**)
 		- TM subroutines allows the equivalent of function decomposition!
 
+### Deciders 
+- a kind of turing Machine that always gives an accept/reject answer instead of possibly looping on certain inputs. So accepting <-> !rejecting now. 
+	- some lanugages are *decidable* if there is a decider TM that accepts it. (If a string w $\notin$ a decider M, M rejected w)
+- the class **R** is the set of all decidable languages
+
+
+## R and RE Languages
+- RE = set of all recognizable languages, R = all decidable languages
+- Every decider is a TM, so R $\subseteq$ RE
+- (later on...ATM in R but not in RE, so R is a strict subset of RE!)
+
+
 ## Idealized Computing Machines
 - we can imagine an idealized computer simulating a TM
 	- ![[Pasted image 745.png]]
@@ -64,14 +77,58 @@
 	- so TMs can be approximated as computers
 
 
-### What kind of problems can a computer solve - solve?
+### What kind of problems can a computer solve 
+#### 'solve'?
 - you can actually claim that a solution doesn't necessarily work for all possible inputs, it just works for the ones we know (Collatz conjecture on Hailstone Sequence TM)
 - tms can technically go endlessly
 	- ![[Pasted image 749.png]]
+#### 'computer?'
+- we're using a TM as 'compuer' bc og Church-Turing Thesis
+- we can try and model TMs with code using some hypothetical methods;
+	- ![[Pasted image 791.png]]
+	- [] ![[Pasted image 792.png]]
+	- if the TM is a decider, the function would return something corresponding to that (for example, for the a^nb^n language example the code would return a bool)
 
+#### 'problem'?
+- a **decision problem** should always have a yes/no answer ('is it actually possible to do this?' instead of 'what's the best way to solve this?')
+	- ![[Pasted image 785.png]]
+	- how do we represent inputs?
+		- **Object Encoding** = we can represent any finite object *Obj* into a string of bits *\<Obj\>* . Encoding should be an injective function, where different objects yield different codes
+		- we can abstract away object encodings and reason with a TM by assuming that any object or group of objects has an encoding
+- impossible problems
+	- [] (there is no decider for ATM) - there is no algorithm that can determine if a progam will accept a particular input, you just have to run it
+	- for problems on *undecidable* languages, you can't simulate them and it's impossible to compute with them or create a decider for it because of the difference between false and not-true/looping 
 
-
-
+### Emergent Properties of TMs 
+- an **emergent propery** = of a system is some property that arises after putting together a bunch of small, property-less elements 
+	- [] universality, self-referentiality
+#### Universality - Universal TMs
+- universality = some computational device that can solve all problems, by taking in other TMs along with an input
+	- can we build a reprogramable turing machine? A simulator TM that would take as input an encoding of another TM with an input string to return whether or not the other TM accepts it? (something like our own actual computers)
+		- ![[Pasted image 786.png]]
+		- ![[Pasted image 788.png]]
+		- [] assuming there's a way to encode a TM, 
+			- ![[Pasted image 789.png]] the UTM will traverse the input string, but at each character it goes to the inputted TM to find out what to do with that char
+		- this concept can theorize our modern computers, which take code as input and can even run virtual machines as input
+	- The Language of the Universal TM is called the acceptance language
+		- ![[Pasted image 790.png]]
+#### Self-referentiality
+- think of a Quine, or a program that prints out its own source code as a string. we can claim that any program can write itself as a string; Kleene's Second Recursive Theorem = it is possible to write TMs that compute on themselves + church-turing therem
+	- = any computing machine has a way to self-reference!
+- **self-defeating object** = an object whose own essential property is that it doesn't exist
+	- [] the largest integer
+	- you can prove if an object is self-defeating; 
+		- ![[Pasted image 793.png]]
+		- becareful not to prove smth is not self-defeating by assuming first that it exists and not searching thoroughly for contradictions
+	- [] **Theorem: the decider for the ATM is self-defeating**
+		- if we had a decider for the ATM, we could know definitively whether any other TM will accept or reject a string instead of just if it's looping
+		- ![[Pasted image 794.png]]
+		- imagine having to plug this program into a self-reference machine
+			- ![[Pasted image 795.png]]
+		- ![[Pasted image 796.png]]
+		- --> update on lava diagram!
+			- ![[Pasted image 797.png]]
+ 
 
 
 
