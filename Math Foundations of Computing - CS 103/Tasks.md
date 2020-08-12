@@ -7,8 +7,20 @@
 	- [ ] go over 7/15 lecture second half (pigeonhole principle)
 	- [ ] go over beginning over 7-17 lecture (induction)
 	- [ ] go over second half of 7/24 lecture omg (NHAs, regular languages)
-	- [ ] all of 8/5
-	- [ ] all of 8/7
+
+- extra/clarified learning
+	- [ ] guide to self-reference
+	- [ ] guide to the lava diagram
+
+- concept confusions
+	- [ ] the relationship between universal statements, implication and the and operator
+		- (from guide to negations) ![[Pasted image 238.png]]
+		- (from notes 6/29) ![[Pasted image 239.png]]
+	- [ ] i don't get what more is needed to define vars/which var needs to be defined
+		- ![[Pasted image 608.png]]
+		- same for pset 4, problem 5.5.
+
+
 
 - grading feedback
 	- [ ] i don't really understand the feedback i recieved for last part of midterm...
@@ -27,11 +39,4 @@
 	- [ ] ec problems from pset3
 	- [ ] ec problems from pset 4
 
-- concept confusions
-	- [ ] the relationship between universal statements, implication and the and operator
-		- (from guide to negations) ![[Pasted image 238.png]]
-		- (from notes 6/29) ![[Pasted image 239.png]]
-	- [ ] i don't get what more is needed to define vars/which var needs to be defined
-		- ![[Pasted image 608.png]]
-		- same for pset 4, problem 5.5.
 

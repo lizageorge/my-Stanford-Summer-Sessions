@@ -4,14 +4,14 @@
     "type": "split",
     "children": [
       {
-        "id": "c4a7c03c90b5e997",
+        "id": "1862493510445177",
         "type": "leaf",
         "active": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Clientside Internet Technology - CS 193C/Notes/8-10; High-Performance Website.md",
-            "mode": "source"
+            "file": "Math Foundations of Computing - CS 103/Notes/8-11; Unsolvable Problems.md",
+            "mode": "preview"
           }
         }
       }
@@ -72,10 +72,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Clientside Internet Technology - CS 193C/Notes/8-10; JS - Error Handling 1.md",
-    "Clientside Internet Technology - CS 193C/Notes/8-10; Ajax.md",
-    "Clientside Internet Technology - CS 193C/Notes/8-10; JS - Error Handling.md",
-    "Clientside Internet Technology - CS 193C/Notes/Untitled.md",
-    "Clientside Internet Technology - CS 193C/Notes/7-16; JS - Selecting Elements.md"
+    "Math Foundations of Computing - CS 103/Notes/8-11; Unsolvable Problems.md",
+    "Math Foundations of Computing - CS 103/Notes/Guide to Negations.md",
+    "Math Foundations of Computing - CS 103/Tasks.md",
+    "Programming Abstractions - CS 106B/Notes/8-11;.md",
+    "Programming Abstractions - CS 106B/Notes/8-10; Graphs and Graph Algorithms.md"
   ]
 }

@@ -1,10 +1,11 @@
 # Turing Machines
-### August 3, 9, 2020 - lecture 17-18
+### August 3, 9, 10 2020 - lecture 17-18
 
 ### Summary 
 - terminology of TMs
 	- ![[Pasted image 752.png]]
 	- (so if something doesn't accept, it didn't necessarily reject it could have looped)
+	- (if a string is in the language L, a TM over L should always accept it. If it isn't, then it could loop or reject)
 - what the language of a TM means;
 	- ![[Pasted image 751.png]]
 
@@ -57,12 +58,20 @@
 - a kind of turing Machine that always gives an accept/reject answer instead of possibly looping on certain inputs. So accepting <-> !rejecting now. 
 	- some lanugages are *decidable* if there is a decider TM that accepts it. (If a string w $\notin$ a decider M, M rejected w)
 - the class **R** is the set of all decidable languages
+### Recognizers
+- basically the TMs we've been working with so far
+- ![[Pasted image 851.png]]
+### Verifiers
+- (more in next lecture)
+- ![[Pasted image 843.png]]
+- ![[Pasted image 845.png]]
 
 
 ## R and RE Languages
 - RE = set of all recognizable languages, R = all decidable languages
 - Every decider is a TM, so R $\subseteq$ RE
 - (later on...ATM in R but not in RE, so R is a strict subset of RE!)
+- To prove that a language is undecidable (not in R), prove that a decider for it cannot exist/a hypothetical decider would be a self-defeating object. Can you writ e a self-referencial program in the decider that contradicts what it was supposed to do?
 
 
 ## Idealized Computing Machines
@@ -95,13 +104,14 @@
 	- how do we represent inputs?
 		- **Object Encoding** = we can represent any finite object *Obj* into a string of bits *\<Obj\>* . Encoding should be an injective function, where different objects yield different codes
 		- we can abstract away object encodings and reason with a TM by assuming that any object or group of objects has an encoding
-- impossible problems
+- impossible problems (more next lecture)
 	- [] (there is no decider for ATM) - there is no algorithm that can determine if a progam will accept a particular input, you just have to run it
 	- for problems on *undecidable* languages, you can't simulate them and it's impossible to compute with them or create a decider for it because of the difference between false and not-true/looping 
 
 ### Emergent Properties of TMs 
 - an **emergent propery** = of a system is some property that arises after putting together a bunch of small, property-less elements 
 	- [] universality, self-referentiality
+	- with a TM with both of these properties, you can prove whether or not it's in R by calling it with itself
 #### Universality - Universal TMs
 - universality = some computational device that can solve all problems, by taking in other TMs along with an input
 	- can we build a reprogramable turing machine? A simulator TM that would take as input an encoding of another TM with an input string to return whether or not the other TM accepts it? (something like our own actual computers)
@@ -114,7 +124,7 @@
 		- ![[Pasted image 790.png]]
 #### Self-referentiality
 - think of a Quine, or a program that prints out its own source code as a string. we can claim that any program can write itself as a string; Kleene's Second Recursive Theorem = it is possible to write TMs that compute on themselves + church-turing therem
-	- = any computing machine has a way to self-reference!
+	- = any computing machine has a way to self-reference! (Any program can be augmented with a call to its own source code)
 - **self-defeating object** = an object whose own essential property is that it doesn't exist
 	- [] the largest integer
 	- you can prove if an object is self-defeating; 
