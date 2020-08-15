@@ -4,7 +4,8 @@
 ### Functionality
 - function decomposition
 	- *functions shouldn't have an extended functionality. Make sure that anything too long is plit up among different functions* (||)
-	- but don't get too specific either, and check for pre-existing functionality/helper methods before writing one (`s[0] = toUpperCase(originalSurname[0])` vs. writing out a switchFirstChar function that uses substrings)
+	- but don't get too specific either - if you have a very short bit of code that would need a pass by reference and return value if in a seperate function, it's less confusing to just leave it with the rest
+	- check for pre-existing functionality/helper methods before writing one (`s[0] = toUpperCase(originalSurname[0])` vs. writing out a switchFirstChar function that uses substrings)
 - don't worry about keeping edge-case checks out of loops for efficiency. it's not that much of a difference, and it could be clearer within the loop
 - code repeating
 	- use for loops, etc. to avoid repeating code!
@@ -30,6 +31,7 @@
 - space everything out (`m* pow(2, p-1)` vs `m * pow(2, p - 1)`)
 - (from lecture) include function prototypes for all of your functions, even if they're in a convenient order, for readability
 - function header comments don't need to be too long or detailed - just an overview 
+- keep your variable and function names specific and clear, and make function comments more about the use of the function than what's actually happening code-wise - remember, we're abstracting away!
 - :) good use of whitespace to seperate everything
 ### Submition
 - file header comments should include a little bit on what the functions within do
@@ -42,6 +44,7 @@
 - Assign2 (Functionality: ✓+, Style: ✓+)
 - Assign3 (Functionality: ✓+, Style: ✓+)
 - Assign4 (Functionality: ✓+, Style: ✓+)
+- Assign5 (Functionality: ✓+, Style: ✓+)
 
 
 ## Assessments

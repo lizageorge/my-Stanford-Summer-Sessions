@@ -7,6 +7,7 @@
 	- [ ] go over 7/15 lecture second half (pigeonhole principle)
 	- [ ] go over beginning over 7-17 lecture (induction)
 	- [ ] go over second half of 7/24 lecture omg (NHAs, regular languages)
+	- [ ] (not needed for final) watch the last lecture, complexity theory
 
 - extra/clarified learning
 	- [ ] guide to self-reference

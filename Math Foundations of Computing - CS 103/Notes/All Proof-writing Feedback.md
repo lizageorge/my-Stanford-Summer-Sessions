@@ -9,11 +9,12 @@
 - always try and work you proofs *forward* - for universal statement proofs, instead of arranging/assuming something to fit the antecedent and proving it fits the requirements in the theorem, prove... 
 
 ## Execution
-- Always scope and introduce all variables (|||)
+- Always scope and introduce all variables (||||)
 	- When giving examples, give clear and specific examples
 		- when giving examples of sets, give example values to the sets
 		- use integers instead of letters for specific examples
 	- Instead of just saying "We will prove[theorem]" as your first sentence, include "Let x, y, and z be arbitrary elements/elements such that...We will prove that..."
+	- scope *every* variable. remember, your proof is being read in isolation to the pset and theorem
 - You should specify what is is that you are trying to prove and what you are assuming. The first sentence of a proof is ideally something like "We will prove..."
 - you should always state exactly what your *assuming* in a proof - usually the antecedent of an implication, etc.
 - especially for non-direct proofs, conclude it with an additional statement stating what you have just shown and how that relates to the original theorem.
@@ -69,3 +70,23 @@
 	- problem four - 5/8 
 		- could have been done without contradiction
 		- didn't take full advantage of the generality of an arbitrary variable, but instead droned on too much
+
+
+- **Practice Final #3** - 30-32/49 (61.22) 
+	- don't forget to scope *everything*
+	- problem one - 3-4/8
+		- first part's logic was entirely incorrect...remember to always think 'it is possible to contradict my own answer, find some counterexample?'
+		- similar error in the second part. also, remember if you're proving subset *start by stating that you'll prove every element in one is in the other don't skip those godsdamned templates*
+	- problem two - 7/8
+		- actually p nice. but the format and structure was ugly and i'm feeling down so -1
+	- problem three - 3/10
+		- just couldn't figure out the first part, even on my second try
+		- got all of the second part though
+	- problem four - 8-9/13
+		- my nfa would probably loose points for being overly complex
+		- watch out for typos
+		- couldn't figure out the cfg problem...remember to use your nonterminals like states in an automata to remember information
+	- problem five -  9/10
+		- great job on the proof of non-decidability
+		- remember, **all finite languages are regular**
+		- to be entirely honest a lot of the lava diagram answers were lucky guesses

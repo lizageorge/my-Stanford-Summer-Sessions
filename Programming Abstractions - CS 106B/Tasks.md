@@ -1,7 +1,7 @@
 # Tasks for Programming Abstractions
 ### Color: Purple
 
-- [ ] catch up on lecture, thursday 7/23
+- [ ] catch up on last lecture, life after cs106b, first half
 - content confusions:
 	- [ ] check the difference bween pass-by-value and pass-by-reference in  java (primitive vs non-primitve data types)
 	- [ ] i asked this during lecture but honestly didn't get it...why does using a forloop to iterate through the index instead of passing it through the method allow for identical possibilities to be searched?

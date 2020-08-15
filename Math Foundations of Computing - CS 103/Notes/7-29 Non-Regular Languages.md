@@ -3,6 +3,7 @@
 - just like regular languages correspond to problems that can be solved with finite memory, non-regular languages correspond to problems that can only be solved with 'infinite' memory (cannot be solved by real-world computers)
 
 ## Proving a language is non-regular
+- **all finite languages are regular**
 - to prove that a non-regular language is non-regular, you have to prove that *no possible* DFA works
 	- (if you can't make a DFA for smth, you can't make a regex or NFA for it)
 	- [] think of the language `{a^n b^n | n \in N}` 

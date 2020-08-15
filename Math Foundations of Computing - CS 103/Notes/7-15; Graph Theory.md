@@ -57,12 +57,15 @@
 	- **minimally connected** = deleting any edge disconnect the graph
 
 ## Pigeonhole Principle
-- [ ]  missed some...pigeon hole principle...right after break
-- [ ]  ![[Pasted image 440.png]]
-- [ ]  ![[Pasted image 443.png]], ![[Pasted image 444.png]]
-- pigeonhole principle proofs have defined m and n, and often try proof by contradiction and see that things simply won't fit
+
+- = If you have *m* objects distributed among *n* bins, at least one bin will have to contain more than one object. 
+- ![[Pasted image 881.png]]
+- if you manipulate your situation to adjust the *m* or *n* such that *m > n*, you can use pigeonhole principle!
+	- [] ![[Pasted image 882.png]] 
+- you can also often try proof by contradiction and see that things simply won't fit
+
 ### The Generalized pigeonhole principle
-- if you have m objects and n bins, some bin will have at least ceil(m/n) objects in it and some bin will have at most floor(m/n)
+- **if you have m objects and n bins, some bin will have at least ceil(m/n) objects in it and some bin will have at most floor(m/n)**
 	- []![[Pasted image 446.png]] - there has to be at least one bin with three pigeons, and at least one with two
 	- ![[Pasted image 447.png]], ![[Pasted image 448.png]], or ![[Pasted image 449.png]]
 - proof; ![[Pasted image 450.png]]
@@ -73,6 +76,11 @@
 	- [ ] ![[Pasted image 452.png]]
 		- [ ] sf
 - [ ] ![[Pasted image 453.png]]
+	- we can also say **if you have m objects and n bins, some bin will have at least ceil(m/n) objects in it iff some bin will have at most floor(m/n)**
+	- "without loss of generality" is used when you just label things *arbitrarily*
+
+
+- basically most of the time when working with graph theory and grouping nodes, or really when grouping anything, keep this in the back of your mind. Use the template "If there are m objects and n bins, then some bin will have at least/most m/n(ceil/floor) objects in it!"
 
 
 

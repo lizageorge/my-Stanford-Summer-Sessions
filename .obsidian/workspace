@@ -10,7 +10,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Math Foundations of Computing - CS 103/Notes/8-11; Unsolvable Problems.md",
+            "file": "Programming Abstractions - CS 106B/CS106B-Exercises/FinalExam/George, Liza Final Project - Funky Words.md",
             "mode": "preview"
           }
         }
@@ -46,7 +46,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.00000190734863
+    "width": 883.0001964569092
   },
   "right": {
     "id": "b905a67981d9ed0b",
@@ -72,10 +72,10 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Math Foundations of Computing - CS 103/Notes/8-11; Unsolvable Problems.md",
-    "Math Foundations of Computing - CS 103/Notes/Guide to Negations.md",
-    "Math Foundations of Computing - CS 103/Tasks.md",
-    "Programming Abstractions - CS 106B/Notes/8-11;.md",
-    "Programming Abstractions - CS 106B/Notes/8-10; Graphs and Graph Algorithms.md"
+    "Programming Abstractions - CS 106B/CS106B-Exercises/FinalExam/George, Liza Final Project - Funky Words.md",
+    "Programming Abstractions - CS 106B/All Feedback.md",
+    "Clientside Internet Technology - CS 193C/Notes/6-23; Intro to Web Programming.md",
+    "Math Foundations of Computing - CS 103/Notes/7-15; Graph Theory.md",
+    "Math Foundations of Computing - CS 103/Notes/7-13; Functions.md"
   ]
 }

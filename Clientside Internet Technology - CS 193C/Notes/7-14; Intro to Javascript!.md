@@ -113,6 +113,12 @@ ok im skipping this for now, i'll come to it later
 - if you want to change the navigation of a page (and not open new tabs) without needing new urls, you can use the history object
 - ![[Pasted image 548.png]]
 
+### Template Literals
+- ![[Pasted image 906.png]]
+- handlebars came before this...
+	- ![[Pasted image 907.png]]
+	- ![[Pasted image 908.png]]
+
 ## Javascript in the Web Browser
 
 - you can just insert js into your HTML page 

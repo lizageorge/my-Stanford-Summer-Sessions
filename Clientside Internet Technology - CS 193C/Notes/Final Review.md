@@ -1,2 +1,13 @@
 - client-side vs server-side processing
 - high performance website...??? (one or two rules)
+
+- bunch of libraries!
+	- for JS
+		- JQuery
+			- JQuery UI
+			- Bootstrap
+		- Node
+		- React
+	- for CSS
+		- less (allows vars, params, expressions)
+		- sass (' ', but requires a pre-processor)
